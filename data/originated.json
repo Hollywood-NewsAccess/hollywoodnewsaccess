@@ -1,4 +1,18 @@
 {
   "_note": "Our own reporting. wire.py reads this every run and places these on the homepage and the right section page, above the wire cards. Add an article page in docs/ AND an entry here, or it appears on no index page. section is one of: celebrity, love, red-carpet, music, tv, movies. Nothing publishes without Terry's named sign-off.",
-  "articles": []
+  "articles": [
+    {
+      "title": "Freda Payne Stole VMAs Weekend",
+      "dek": "Every camera in town was pointed at the Peacock Theater. But the night Hollywood can't stop raving about happened on Sunset, where an 84-year-old legend in gold lamé delivered a sold-out, showstopping, once-in-a-lifetime triumph.",
+      "url": "freda-payne-catalina-hollywood-raves.html",
+      "section": "music",
+      "tag": "Hollywood is raving",
+      "byline": "By Hollywood News Access",
+      "date": "2026-10-05",
+      "image": "img/freda-payne-gold-catalina.jpg",
+      "photo_author": "Terry Bryant",
+      "photo_licence": "Original photography, used with the photographer's permission",
+      "image_focus": "50% 18%"
+    }
+  ]
 }
