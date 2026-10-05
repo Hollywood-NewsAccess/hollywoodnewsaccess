@@ -1,0 +1,53 @@
+{
+  "_note": "The outlets Hollywood News Access pulls headlines and photos from. Celebrity and pop-culture first. Deliberately none of the trade feeds Newswire Hollywood uses (Variety, Deadline, The Wrap, THR, Billboard, Rolling Stone), so the two sites never carry the same wire. A feed that fails is dropped from that run and logged in runbook/wire-feed-status.md; nothing breaks. Wire cards carry the outlet's headline and its own feed photo, credited, linking out. We never republish their text.",
+  "feeds": [
+    {
+      "name": "TMZ",
+      "url": "https://www.tmz.com/rss.xml"
+    },
+    {
+      "name": "E! News",
+      "url": "https://www.eonline.com/syndication/feeds/rssfeeds/topstories.xml"
+    },
+    {
+      "name": "Page Six",
+      "url": "https://pagesix.com/feed/"
+    },
+    {
+      "name": "Us Weekly",
+      "url": "https://www.usmagazine.com/feed/"
+    },
+    {
+      "name": "Just Jared",
+      "url": "https://www.justjared.com/feed/"
+    },
+    {
+      "name": "HollywoodLife",
+      "url": "https://hollywoodlife.com/feed/"
+    },
+    {
+      "name": "Entertainment Tonight",
+      "url": "https://www.etonline.com/news/rss"
+    },
+    {
+      "name": "People",
+      "url": "https://people.com/feeds/all/"
+    },
+    {
+      "name": "Bossip",
+      "url": "https://bossip.com/feed/"
+    },
+    {
+      "name": "Rolling Out",
+      "url": "https://rollingout.com/feed/"
+    },
+    {
+      "name": "VIBE",
+      "url": "https://www.vibe.com/feed/"
+    },
+    {
+      "name": "Essence",
+      "url": "https://www.essence.com/feed/"
+    }
+  ]
+}

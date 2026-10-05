@@ -1,0 +1,4 @@
+{
+  "_note": "Date-gated site takeovers. While today falls inside start..end (inclusive, America/Los_Angeles), wire.py renders the banner on the homepage and adds the nav item to every page. The day after 'end' it all disappears on the next hourly run with nobody touching a file. To run a future takeover, add an entry here - nothing else needs editing, and nothing ever needs removing by hand.",
+  "takeovers": []
+}

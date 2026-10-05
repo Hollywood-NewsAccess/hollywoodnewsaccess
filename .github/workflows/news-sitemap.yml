@@ -1,0 +1,277 @@
+name: Regenerate sitemaps
+
+# What this does, plain English: Google News sitemaps are only supposed to
+# list articles published in the last 48 hours. This runs once a day, scans
+# every article page in docs/ for its real datePublished (from the
+# NewsArticle JSON-LD already on the page), keeps only the ones still inside
+# that 48-hour window, and rewrites docs/news-sitemap.xml to match. If
+# nothing published in the last two days, it writes an empty sitemap rather
+# than leaving stale entries in - an empty file is honest, a stale one is not.
+#
+# Cost: zero. This is plain Python string/XML handling on a GitHub-hosted
+# runner, not a call to any AI model - it runs on GitHub's free Actions
+# minutes (unlimited on this public repo) with no other cost attached.
+#
+# Trigger: on every push that touches an article page, hourly on the schedule,
+# or the Actions tab's "Run workflow" button.
+#
+# WHY ON PUSH: this used to run once a day. A story filed at 11am therefore sat
+# outside the news sitemap until the next morning - up to 22 hours during which
+# Google News had no idea it existed. For a wire service that is the whole game,
+# so it now regenerates the moment a story lands, and hourly as a safety net in
+# case a push slips through.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "docs/**/*.html"
+  schedule:
+    - cron: "23 * * * *"
+  workflow_dispatch: {}
+
+concurrency:
+  group: news-sitemap
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Rebuild docs/news-sitemap.xml from real article dates
+        run: |
+          python3 <<'PYEOF'
+          import glob, json, re
+          from datetime import datetime, timedelta, timezone
+
+          now = datetime.now(timezone.utc)
+          window_start = now - timedelta(hours=48)
+
+          # Pages that are not NewsArticle content - never eligible for the
+          # news sitemap regardless of any JSON-LD they carry.
+          EXCLUDE = {
+              "index.html", "calendar.html", "pressroom.html", "wire.html",
+              "celebrity.html", "love.html", "red-carpet.html", "music.html",
+              "tv.html", "movies.html",
+          }
+
+          entries = []
+          for path in sorted(glob.glob("docs/*.html")):
+              fname = path.split("/")[-1]
+              if fname.startswith("_") or fname in EXCLUDE:
+                  continue
+              html = open(path, encoding="utf-8").read()
+              m = re.search(
+                  r'<script type="application/ld\+json">(.*?)</script>',
+                  html, re.DOTALL,
+              )
+              if not m:
+                  continue
+              try:
+                  data = json.loads(m.group(1))
+              except json.JSONDecodeError:
+                  continue
+              if data.get("@type") != "NewsArticle":
+                  continue
+              date_str = data.get("datePublished")
+              headline = data.get("headline")
+              if not date_str or not headline:
+                  continue
+              try:
+                  pub = datetime.fromisoformat(date_str).replace(tzinfo=timezone.utc)
+              except ValueError:
+                  continue
+              if pub < window_start:
+                  continue
+              entries.append((fname, headline, date_str))
+
+          lines = [
+              '<?xml version="1.0" encoding="UTF-8"?>',
+              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
+              '        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">',
+          ]
+          for fname, headline, date_str in entries:
+              escaped = (
+                  headline.replace("&", "&amp;").replace("<", "&lt;")
+                  .replace(">", "&gt;").replace('"', "&quot;")
+              )
+              lines += [
+                  "  <url>",
+                  f"    <loc>https://hollywoodnewsaccess.com/{fname}</loc>",
+                  "    <news:news>",
+                  "      <news:publication>",
+                  "        <news:name>Hollywood News Access</news:name>",
+                  "        <news:language>en</news:language>",
+                  "      </news:publication>",
+                  f"      <news:publication_date>{date_str}</news:publication_date>",
+                  f"      <news:title>{escaped}</news:title>",
+                  "    </news:news>",
+                  "  </url>",
+              ]
+          lines.append("</urlset>")
+          lines.append("")
+
+          with open("docs/news-sitemap.xml", "w", encoding="utf-8") as f:
+              f.write("\n".join(lines))
+
+          print(f"kept {len(entries)} article(s) inside the 48-hour window")
+          PYEOF
+
+      - name: Rebuild docs/sitemap.xml from every real page
+        # Plain English: the news sitemap only ever carries the last 48 hours.
+        # The FULL sitemap is what tells Google every page the site has. It used
+        # to be hand-maintained, went eleven days stale, and was missing the CDC
+        # sites, the Freda Payne pages and the QR page entirely - fifteen pages
+        # Google had no route to. This rebuilds it from what is actually on disk
+        # every time the workflow runs, so it can never drift again.
+        #
+        # lastmod comes from the file's real last commit date, not from today's
+        # date. Stamping everything with today would be a lie Google learns to
+        # ignore.
+        run: |
+          python3 <<'PYEOF'
+          import os, re, subprocess
+
+          SITE = "https://hollywoodnewsaccess.com"
+
+          # Redirect stubs and the article template are not pages. A sitemap that
+          # lists a redirect teaches Google the sitemap is unreliable.
+          SKIP_NAMES = {"_template-article.html"}
+
+          SECTIONS = {
+              "celebrity.html", "love.html", "red-carpet.html", "music.html",
+              "tv.html", "movies.html",
+              "wire.html",
+          }
+
+          def lastmod(path):
+              try:
+                  out = subprocess.run(
+                      ["git", "log", "-1", "--format=%cs", "--", path],
+                      capture_output=True, text=True, timeout=30,
+                  ).stdout.strip()
+                  return out or None
+              except Exception:
+                  return None
+
+          pages = []
+          for root, dirs, files in os.walk("docs"):
+              dirs[:] = [d for d in dirs if not d.startswith(".")]
+              for name in sorted(files):
+                  if not name.endswith(".html") or name in SKIP_NAMES:
+                      continue
+                  path = os.path.join(root, name)
+                  html = open(path, encoding="utf-8", errors="replace").read()
+                  if re.search(r'http-equiv=["\']?refresh', html, re.I):
+                      continue  # redirect stub
+                  rel = os.path.relpath(path, "docs").replace(os.sep, "/")
+                  loc = SITE + "/" if rel == "index.html" else SITE + "/" + rel
+                  if rel == "index.html":
+                      freq, pri = "hourly", "1.0"
+                  elif rel in SECTIONS:
+                      freq, pri = "daily", "0.9"
+                  elif rel.startswith("cdc/"):
+                      freq, pri = "weekly", "0.7"
+                  else:
+                      freq, pri = "weekly", "0.8"
+                  pages.append((loc, lastmod(path), freq, pri))
+
+          pages.sort(key=lambda p: (p[0] != SITE + "/", p[0]))
+
+          lines = [
+              '<?xml version="1.0" encoding="UTF-8"?>',
+              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+          ]
+          for loc, mod, freq, pri in pages:
+              lines.append("  <url>")
+              lines.append("    <loc>%s</loc>" % loc)
+              if mod:
+                  lines.append("    <lastmod>%s</lastmod>" % mod)
+              lines.append("    <changefreq>%s</changefreq>" % freq)
+              lines.append("    <priority>%s</priority>" % pri)
+              lines.append("  </url>")
+          lines.append("</urlset>")
+          lines.append("")
+
+          with open("docs/sitemap.xml", "w", encoding="utf-8") as f:
+              f.write("\n".join(lines))
+
+          print("sitemap.xml now lists %d page(s)" % len(pages))
+          PYEOF
+
+      - name: Commit if changed
+        run: |
+          git config user.name "hna-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if git diff --quiet -- docs/news-sitemap.xml docs/sitemap.xml; then
+            echo "no change"
+          else
+            git add docs/news-sitemap.xml docs/sitemap.xml
+            git commit -m "Auto: regenerate sitemap.xml and news-sitemap.xml"
+            git push
+          fi
+
+      - name: Tell IndexNow the moment a story lands
+        # IndexNow notifies Bing, Yandex, Naver and Seznam instantly - no account,
+        # no cost, no quota. Google retired its own sitemap ping endpoint in 2023,
+        # so Google indexing runs through Search Console and the news sitemap
+        # instead; there is no ping to add for it, and pretending otherwise would
+        # just be a request into a void.
+        #
+        # The key file at docs/1d22087e4a23c18c9a13353912db563f.txt proves we own the domain.
+        # It must stay put - deleting it silently breaks submission.
+        run: |
+          python3 <<'PYEOF'
+          import json, re, urllib.request
+
+          KEY = "1d22087e4a23c18c9a13353912db563f"
+          HOST = "hollywoodnewsaccess.com"
+
+          try:
+              xml = open("docs/news-sitemap.xml", encoding="utf-8").read()
+          except OSError:
+              raise SystemExit("no news sitemap to submit")
+
+          urls = re.findall(r"<loc>(.*?)</loc>", xml)
+
+          # Press releases are not news-sitemap material - that file is reserved
+          # for our own reporting - but they should still be found quickly. Ping
+          # them on a push only, so the hourly run does not resubmit unchanged
+          # pages, which IndexNow asks publishers not to do.
+          import glob, os
+          if os.environ.get("GITHUB_EVENT_NAME") == "push":
+              for path in sorted(glob.glob("docs/pr-*.html")):
+                  u = "https://%s/%s" % (HOST, os.path.basename(path))
+                  if u not in urls:
+                      urls.append(u)
+
+          if not urls:
+              print("nothing published in the window - nothing to submit")
+              raise SystemExit(0)
+
+          payload = json.dumps({
+              "host": HOST,
+              "key": KEY,
+              "keyLocation": "https://%s/%s.txt" % (HOST, KEY),
+              "urlList": urls,
+          }).encode()
+
+          req = urllib.request.Request(
+              "https://api.indexnow.org/IndexNow",
+              data=payload,
+              headers={"Content-Type": "application/json; charset=utf-8"},
+              method="POST",
+          )
+          try:
+              with urllib.request.urlopen(req, timeout=20) as r:
+                  print("IndexNow accepted %d URLs - HTTP %d" % (len(urls), r.status))
+          except Exception as exc:
+              # Never fail the build over this. The sitemap is the source of
+              # truth; IndexNow is an accelerator on top of it.
+              print("IndexNow submission failed, sitemap still published: %s" % exc)
+          PYEOF

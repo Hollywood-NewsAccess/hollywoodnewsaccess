@@ -1,0 +1,4 @@
+{
+  "_note": "Our own reporting. wire.py reads this every run and places these on the homepage and the right section page, above the wire cards. Add an article page in docs/ AND an entry here, or it appears on no index page. section is one of: celebrity, love, red-carpet, music, tv, movies. Nothing publishes without Terry's named sign-off.",
+  "articles": []
+}

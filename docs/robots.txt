@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hollywoodnewsaccess.com/sitemap.xml
+Sitemap: https://hollywoodnewsaccess.com/news-sitemap.xml
+
+Sitemap: https://hollywoodnewsaccess.com/feed.xml

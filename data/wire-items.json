@@ -1,0 +1,13 @@
+{
+  "_note": "The Wire. Everything that reaches the site by a path other than the newsroom's own reporting, plus community items. wire.py reads this file every run and rebuilds docs/wire.html from it - that page is no longer hand-typed. Add an item here and it is live within the hour.",
+  "_how_to_add_an_item": "Copy any block below, change the fields, keep the commas right. Only 'type', 'headline', 'body' and 'date' are required. Everything else can be left out and the page just omits it.",
+  "_types": {
+    "community": "Local Los Angeles - an event, a listing, a neighborhood item, a release from a community organization. Labeled COMMUNITY.",
+    "syndicated": "Written somewhere else and carried here with attribution. MUST have source and source_url - the label links out to them. Labeled SYNDICATED.",
+    "sponsored": "A client paid for this. Labeled SPONSORED in gold, and the label is not optional - it is an indexing requirement, not a style choice. 'paid_by' is required so the page can name who paid."
+  },
+  "_fields": "type | headline | dek | body | date (YYYY-MM-DD) | source | source_url | paid_by | contact | where | when_text",
+  "_rule": "Nothing goes on this page that is not real. No invented organizations, no placeholder people, no made-up releases. An unknown field is left out, never guessed at.",
+  "submissions_email": "",
+  "items": []
+}

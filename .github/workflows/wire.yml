@@ -1,0 +1,65 @@
+name: Wire
+
+# What this does, plain English: runs wire.py once an hour. wire.py pulls the
+# trades' public RSS feeds, takes the headline, summary, timestamp and photo
+# each feed publishes, sorts everything into sections, and rewrites the
+# homepage and the six section pages from scratch. Our own reporting comes
+# from data/originated.json and always sits above the wire cards, so a
+# regeneration can never wipe our own journalism off the site.
+#
+# It also runs the takeover clock: while today is inside a window in
+# data/event-takeovers.json the banner and nav item appear everywhere, and the
+# day after it ends they disappear on the next run. Nobody removes a takeover
+# by hand.
+#
+# Cost: zero. Standard-library Python only - nothing to pip install, no AI
+# model calls, and free unlimited Actions minutes on a public repo.
+#
+# Trigger: hourly on the schedule below, or the "Run workflow" button on the
+# Actions tab any time you want to force a refresh.
+#
+# It only commits when the generated pages actually changed. A quiet hour
+# leaves no commit behind.
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wire
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Rebuild the site from the feeds
+        run: python3 wire.py
+
+      - name: Commit only if the pages actually changed
+        run: |
+          git config user.name "hna-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if git diff --quiet -- docs/; then
+            echo "no page changes this run - discarding the status log append"
+            git checkout -- runbook/wire-feed-status.md || true
+          else
+            git add docs/ runbook/wire-feed-status.md
+            git commit -m "Auto: rebuild site from the wire"
+            for attempt in 1 2 3 4; do
+              if git push; then
+                exit 0
+              fi
+              echo "push failed, refetching and retrying (attempt $attempt)"
+              git pull --rebase origin main || true
+              sleep $((attempt * 4))
+            done
+            echo "push failed after retries"
+            exit 1
+          fi
