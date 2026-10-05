@@ -1,5 +1,5 @@
 {
-  "_note": "The outlets Hollywood News Access pulls headlines and photos from. Celebrity and pop-culture first. Deliberately none of the trade feeds Newswire Hollywood uses (Variety, Deadline, The Wrap, THR, Billboard, Rolling Stone), so the two sites never carry the same wire. A feed that fails is dropped from that run and logged in runbook/wire-feed-status.md; nothing breaks. Wire cards carry the outlet's headline and its own feed photo, credited, linking out. We never republish their text.",
+  "_note": "The outlets Hollywood News Access pulls headlines and photos from. Celebrity and pop-culture first. Deliberately none of the trade feeds Newswire Hollywood uses (Variety, Deadline, The Wrap, THR, Billboard, Rolling Stone), so the two sites never carry the same wire. A feed that fails is dropped from that run and logged in runbook/wire-feed-status.md; nothing breaks. Wire cards carry the outlet's headline and its own feed photo, credited, linking out. We never republish their text. Gossip and influencer blogs are included for speed, but the same rule holds for every outlet: their headline, their photo, credited, linking out. A claim from a gossip blog is never restated as fact in our own reporting until we confirm it.",
   "feeds": [
     {
       "name": "TMZ",
@@ -48,6 +48,38 @@
     {
       "name": "Essence",
       "url": "https://www.essence.com/feed/"
+    },
+    {
+      "name": "Perez Hilton",
+      "url": "https://perezhilton.com/feed/"
+    },
+    {
+      "name": "The Jasmine Brand",
+      "url": "https://thejasminebrand.com/feed/"
+    },
+    {
+      "name": "Baller Alert",
+      "url": "https://balleralert.com/feed/"
+    },
+    {
+      "name": "Hollywood Unlocked",
+      "url": "https://hollywoodunlocked.com/feed/"
+    },
+    {
+      "name": "Love B. Scott",
+      "url": "https://lovebscott.com/feed/"
+    },
+    {
+      "name": "Lainey Gossip",
+      "url": "https://www.laineygossip.com/rss"
+    },
+    {
+      "name": "Cosmopolitan Entertainment",
+      "url": "https://www.cosmopolitan.com/rss/entertainment.xml/"
+    },
+    {
+      "name": "Elle Culture",
+      "url": "https://www.elle.com/rss/culture.xml/"
     }
   ]
 }

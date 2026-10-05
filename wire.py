@@ -55,6 +55,7 @@ there is always a record of which feeds answered and which were dropped.
 """
 
 import html
+import html as html_mod
 import json
 import urllib.parse
 import urllib.request
@@ -360,6 +361,164 @@ def esc(s):
              .replace(">", "&gt;").replace('"', "&quot;"))
 
 
+
+# --------------------------------------------------------------------------
+# The Pulse: what America is searching, and what it is playing. Both come from
+# free public feeds with no key. The last good copy is kept in
+# docs/pulse.json, so a feed that fails for an hour leaves the old list up
+# instead of a blank box.
+# --------------------------------------------------------------------------
+PULSE_CACHE = os.path.join(DOCS, "pulse.json")
+TRENDS_URL = "https://trends.google.com/trending/rss?geo=US"
+CHART_URLS = {
+    "songs": "https://rss.applemarketingtools.com/api/v2/us/music/most-played/10/songs.json",
+    "albums": "https://rss.applemarketingtools.com/api/v2/us/music/most-played/10/albums.json",
+}
+# A trending search counts as entertainment if its headline or source says so.
+ENT_SOURCES = ("tmz", "people", "e! news", "eonline", "variety", "deadline", "billboard",
+               "rolling stone", "us weekly", "page six", "entertainment tonight", "etonline",
+               "hollywood", "just jared", "vibe", "essence", "bossip", "pitchfork", "complex",
+               "vulture", "the wrap", "access", "extra", "people.com", "usmagazine")
+ENT_WORDS = ("album", "song", "singer", "rapper", "actor", "actress", "movie", "film",
+             "show", "series", "season", "netflix", "concert", "tour", "grammy", "oscar",
+             "emmy", "vmas", "celebrity", "star", "trailer", "premiere", "reality", "dating",
+             "engaged", "married", "divorce", "baby", "music", "box office", "tv", "episode",
+             "red carpet", "fashion", "influencer", "tiktok", "instagram", "viral")
+
+
+def _x(block, tag):
+    m = re.search(r"<%s[^>]*>(.*?)</%s>" % (re.escape(tag), re.escape(tag)), block, re.S)
+    if not m:
+        return ""
+    v = m.group(1).strip()
+    v = re.sub(r"^<!\[CDATA\[(.*)\]\]>$", r"\1", v, flags=re.S)
+    return html_mod.unescape(v).strip()
+
+
+def parse_trends(text):
+    out = []
+    for block in re.findall(r"<item\b.*?</item>", text, re.S | re.I):
+        term = _x(block, "title")
+        if not term:
+            continue
+        news = re.findall(r"<ht:news_item>(.*?)</ht:news_item>", block, re.S)
+        first = news[0] if news else ""
+        out.append({
+            "term": term,
+            "traffic": _x(block, "ht:approx_traffic"),
+            "headline": _x(first, "ht:news_item_title"),
+            "url": _x(first, "ht:news_item_url"),
+            "source": _x(first, "ht:news_item_source"),
+            "picture": _x(block, "ht:picture"),
+        })
+    return out
+
+
+def is_entertainment(t):
+    hay = " ".join([t.get("term", ""), t.get("headline", ""), t.get("source", "")]).lower()
+    return any(s in hay for s in ENT_SOURCES) or any(w in hay for w in ENT_WORDS)
+
+
+def parse_chart(text):
+    data = json.loads(text)
+    out = []
+    for r in (data.get("feed") or {}).get("results", [])[:10]:
+        out.append({"name": r.get("name", ""), "artist": r.get("artistName", ""),
+                    "url": r.get("url", ""), "art": r.get("artworkUrl100", "")})
+    return out
+
+
+def collect_pulse(dry_run=False):
+    """Fetch trends and charts; fall back to the last good copy per piece."""
+    try:
+        with open(PULSE_CACHE, encoding="utf-8") as f:
+            cache = json.load(f)
+    except (OSError, ValueError):
+        cache = {}
+    pulse, notes = dict(cache), []
+    try:
+        trends = parse_trends(fetch(TRENDS_URL))
+        ent = [t for t in trends if is_entertainment(t)]
+        if trends:
+            # Prefer entertainment; top up with the rest so the board is never thin.
+            pulse["trends"] = (ent + [t for t in trends if t not in ent])[:10]
+            pulse["trends_ent"] = len(ent)
+            pulse["trends_at"] = datetime.now(timezone.utc).isoformat(timespec="minutes")
+        notes.append("trends ok (%d, %d entertainment)" % (len(trends), len(ent)))
+    except Exception as e:
+        notes.append("trends kept last copy (%s)" % type(e).__name__)
+    for key, url in CHART_URLS.items():
+        try:
+            rows = parse_chart(fetch(url))
+            if rows:
+                pulse[key] = rows
+                pulse[key + "_at"] = datetime.now(timezone.utc).isoformat(timespec="minutes")
+            notes.append("%s ok (%d)" % (key, len(rows)))
+        except Exception as e:
+            notes.append("%s kept last copy (%s)" % (key, type(e).__name__))
+    if not dry_run and pulse != cache:
+        with open(PULSE_CACHE, "w", encoding="utf-8") as f:
+            json.dump(pulse, f, indent=1, ensure_ascii=False)
+    return pulse, notes
+
+
+def _chart_list(rows, label, credit):
+    if not rows:
+        return ""
+    li = "".join(
+        '<li><span class="rank">%d</span>%s<span class="what"><a href="%s" target="_blank" rel="noopener">'
+        '<b>%s</b></a><i>%s</i></span></li>'
+        % (i + 1,
+           ('<img src="%s" alt="" loading="lazy" width="48" height="48">' % esc(r["art"])) if r.get("art") else "",
+           esc(r["url"]), esc(r["name"]), esc(r["artist"]))
+        for i, r in enumerate(rows[:10]))
+    return ('<div class="pulse-col"><h3>%s</h3><ol class="chart">%s</ol><p class="pulse-src">%s</p></div>'
+            % (esc(label), li, esc(credit)))
+
+
+def trends_html(trends):
+    if not trends:
+        return ""
+    li = []
+    for i, t in enumerate(trends[:10]):
+        href = t.get("url") or ("https://www.google.com/search?q=" + urllib.parse.quote(t["term"]))
+        sub = t.get("headline") or ""
+        li.append('<li><span class="rank">%d</span><span class="what"><a href="%s" target="_blank" rel="noopener">'
+                  '<b>%s</b></a><i>%s%s</i></span>%s</li>'
+                  % (i + 1, esc(href), esc(t["term"]), esc(sub),
+                     (" &middot; " + esc(t["source"])) if t.get("source") and sub else "",
+                     ('<em class="heat">%s</em>' % esc(t["traffic"])) if t.get("traffic") else ""))
+    return ('<div class="pulse-col pulse-trend"><h3>Trending now</h3><ol class="chart">%s</ol>'
+            '<p class="pulse-src">What America is searching, from Google Trends. Headlines link to the outlet that reported them.</p></div>'
+            % "".join(li))
+
+
+def pulse_band(pulse, full=False):
+    cols = [trends_html(pulse.get("trends")),
+            _chart_list(pulse.get("songs"), "Top songs", "Most played in the U.S. on Apple Music. Updated hourly."),
+            _chart_list(pulse.get("albums"), "Top albums", "Most played in the U.S. on Apple Music. Updated hourly.")]
+    cols = [c for c in cols if c]
+    if not cols:
+        return ""
+    more = "" if full else '<a class="pulse-more" href="charts.html">The full Pulse &rarr;</a>'
+    return ('<section class="pulse"><div class="wrap"><h2 class="sect sect--light">The Pulse</h2>'
+            '<p class="sect-note">What everyone is searching, streaming and playing, right now.</p>'
+            '<div class="pulse-grid">%s</div>%s</div></section>' % ("".join(cols), more))
+
+
+def build_charts(pulse, takeover, now_la, now_utc, feed_ok, feed_total):
+    parts = [head_html("The Pulse: Trending Now and the Charts | Hollywood News Access",
+                       "What America is searching right now, plus the most-played songs and albums, updated every hour.",
+                       "https://hollywoodnewsaccess.com/charts.html")]
+    parts += ["<body>", masthead_html(now_la), nav_html("charts.html", takeover), banner_html(takeover)]
+    band = pulse_band(pulse, full=True).replace('class="pulse"', 'class="pulse pulse--page"', 1)
+    parts.append(band or '<main><div class="wrap"><div class="empty">The charts are loading. '
+                 'They fill on the next hourly update.</div></div></main>')
+    parts.append(footer_html(now_utc, feed_ok, feed_total))
+    parts.append("</body>\n</html>")
+    return "\n".join(p for p in parts if p) + "\n"
+
+
 CSS = """:root{--ink:#0C0811;--body:#26212D;--paper:#FFFFFF;--soft:#F6F2F8;--rule:#E3DCE8;--rule-soft:#EFEAF2;--signal:#FF2E88;--date:#6B3BFF;--flag:#FFC233;--hot:#FF2E88;--violet:#6B3BFF;--hed:'Anton',Impact,'Arial Narrow',sans-serif;--sub:'Bricolage Grotesque',system-ui,sans-serif;--txt:'Instrument Sans',system-ui,sans-serif;--wrap:1240px}
 *{margin:0;padding:0;box-sizing:border-box}
 body{background:var(--paper);color:var(--body);font-family:var(--txt);font-size:16.5px;line-height:1.55}
@@ -445,6 +604,31 @@ footer nav{display:flex;flex-wrap:wrap;gap:18px;margin-bottom:14px}
 footer nav a{color:var(--ink);font-weight:800;letter-spacing:.06em;text-transform:uppercase;font-size:12.5px}
 footer nav a:hover{color:var(--hot)}
 .machine{font-size:12.5px;color:#8D8496;margin-top:10px}
+.pulse{background:var(--ink);color:#fff;padding:10px 0 46px;margin-top:56px;position:relative;overflow:hidden}
+.pulse::before{content:"";position:absolute;inset:-30% auto auto -10%;width:560px;height:560px;background:radial-gradient(closest-side,rgba(255,46,136,.30),transparent 70%)}
+.pulse .wrap{position:relative}
+.pulse--page{margin-top:0;min-height:70vh}
+h2.sect--light{color:#fff}
+h2.sect--light::after{background:linear-gradient(90deg,#fff,transparent)}
+.pulse .sect-note{color:#B9AFC4}
+.pulse-grid{display:grid;grid-template-columns:1fr;gap:26px}
+@media(min-width:900px){.pulse-grid{grid-template-columns:1.25fr 1fr 1fr}}
+.pulse-col{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:10px;padding:18px 18px 12px;min-width:0}
+.pulse-col h3{font-family:var(--hed);font-weight:400;font-size:24px;letter-spacing:.06em;text-transform:uppercase;color:var(--flag);margin-bottom:10px}
+.pulse-trend h3{color:var(--hot)}
+.chart{list-style:none}
+.chart li{display:flex;align-items:center;gap:12px;padding:9px 0;border-bottom:1px solid rgba(255,255,255,.08);min-width:0}
+.chart li:last-child{border-bottom:0}
+.chart .rank{font-family:var(--hed);font-size:22px;width:26px;text-align:right;color:rgba(255,255,255,.45);flex:none;font-variant-numeric:tabular-nums}
+.chart li:nth-child(-n+3) .rank{color:var(--flag)}
+.chart img{width:44px;height:44px;border-radius:4px;flex:none;object-fit:cover}
+.chart .what{display:flex;flex-direction:column;min-width:0;flex:1}
+.chart b{font-family:var(--sub);font-weight:800;font-size:15px;line-height:1.2;color:#fff;overflow:hidden;text-overflow:ellipsis}
+.chart a:hover b{color:var(--hot)}
+.chart i{font-style:normal;font-size:12.5px;color:#B9AFC4;line-height:1.3;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.chart .heat{font-style:normal;font-family:var(--sub);font-weight:800;font-size:11px;color:var(--ink);background:var(--flag);border-radius:20px;padding:3px 8px;flex:none}
+.pulse-src{font-size:11.5px;color:#8F849B;margin-top:10px}
+.pulse-more{display:inline-block;margin-top:22px;font-family:var(--sub);font-weight:800;letter-spacing:.08em;text-transform:uppercase;font-size:13px;color:var(--flag);border-bottom:2px solid var(--flag)}
 @media(max-width:700px){.dateline{text-align:left}.lede{min-height:46vh}.lede-copy{padding:40px 0 30px}}"""
 
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">\n'
@@ -460,6 +644,7 @@ NAV_ORDER = ["celebrity", "love", "red-carpet", "music", "tv", "movies"]
 def nav_html(current, takeover):
     items = [("index.html", "Home")]
     items += [(slug + ".html", SECTION_LOOKUP[slug][0]) for slug in NAV_ORDER]
+    items += [("charts.html", "The Pulse")]
     rows = []
     for href, label in items:
         cls = ' class="current"' if href == current else ""
@@ -651,7 +836,7 @@ Hollywood News Access desk byline. Page rebuilt automatically %s UTC from %d of 
 # page generation
 # --------------------------------------------------------------------------
 
-def build_index(ours, wire_items, takeover, now_la, now_utc, feed_ok, feed_total):
+def build_index(ours, wire_items, takeover, now_la, now_utc, feed_ok, feed_total, pulse=None):
     lede_item, rest = None, list(wire_items)
     if takeover:
         for o in ours:
@@ -701,6 +886,7 @@ def build_index(ours, wire_items, takeover, now_la, now_utc, feed_ok, feed_total
                      'See runbook/wire-feed-status.md for which feeds answered.</div>')
 
     parts.append("</div></main>")
+    parts.append(pulse_band(pulse or {}))
     parts.append("""<section class="band"><div class="wrap">
 <h2>Standards &amp; corrections</h2>
 <p>Sourcing, embargoes, image licensing and corrections are covered in our
@@ -1391,9 +1577,11 @@ def main():
             print("wire-items.json unreadable, skipping The Wire: %s" % exc)
             wire_data = {}
 
+    pulse, pulse_notes = collect_pulse(dry_run)
     home_wire = fresh[:HOME_WIRE_COUNT] if fresh else []
     pages = {"index.html": build_index(ours_all, home_wire, live, now_la, now_utc,
-                                       feed_ok, len(status))}
+                                       feed_ok, len(status), pulse)}
+    pages["charts.html"] = build_charts(pulse, live, now_la, now_utc, feed_ok, len(status))
     for slug, _label, _blurb, _kw in SECTIONS:
         pages[slug + ".html"] = build_section(slug, ours_by_section[slug], by_section[slug],
                                               live, now_la, now_utc, feed_ok, len(status))
@@ -1427,6 +1615,7 @@ def main():
     if not dry_run:
         write_status_log(status, now_utc, len(fresh), dropped_old)
 
+    print("pulse: %s" % "; ".join(pulse_notes))
     print("feeds ok: %d/%d" % (feed_ok, len(status)))
     for name, _u, state, note, count, photos in status:
         print("  %-28s %-8s items=%-3d photos=%-3d %s" % (name, state, count, photos, note))
