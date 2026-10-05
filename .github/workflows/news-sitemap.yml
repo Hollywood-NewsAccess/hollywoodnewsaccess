@@ -208,7 +208,7 @@ jobs:
         run: |
           git config user.name "hna-bot"
           git config user.email "actions@users.noreply.github.com"
-          if git diff --quiet -- docs/news-sitemap.xml docs/sitemap.xml; then
+          if [ -z "$(git status --porcelain -- docs/news-sitemap.xml docs/sitemap.xml)" ]; then
             echo "no change"
           else
             git add docs/news-sitemap.xml docs/sitemap.xml

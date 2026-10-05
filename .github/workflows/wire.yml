@@ -46,7 +46,10 @@ jobs:
         run: |
           git config user.name "hna-bot"
           git config user.email "actions@users.noreply.github.com"
-          if git diff --quiet -- docs/; then
+          # git status, not git diff: diff ignores brand-new files, so the very
+          # first build (a homepage that never existed before) looked like
+          # "no change" and was thrown away every hour.
+          if [ -z "$(git status --porcelain -- docs/)" ]; then
             echo "no page changes this run - discarding the status log append"
             git checkout -- runbook/wire-feed-status.md || true
           else
