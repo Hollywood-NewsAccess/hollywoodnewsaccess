@@ -1,32 +1,64 @@
 {
  "trends": [
   {
-   "term": "alex ovechkin",
+   "term": "jj mccarthy vikings trade comments",
+   "traffic": "2000+",
+   "headline": "Jameis Winston has time to prove he's the New York Giants' starter",
+   "url": "https://www.espn.com/nfl/story/_/id/50077929/jameis-winston-prove-giants-qb-starter-jj-mccarthy",
+   "source": "ESPN",
+   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRCbwy7gOnGoz2Bgco2yw4kGK6cJbBFJ5P6PC9lkk2MIhpUYf5qLVRiSUIpZM0"
+  },
+  {
+   "term": "country music",
+   "traffic": "10000+",
+   "headline": "Dolly Parton TV Celebration at ABC Reveals Lineup: Ella Langley, Reba McEntire, Carrie Underwood and More",
+   "url": "https://www.thewrap.com/media-platforms/tv/dolly-parton-tribute-full-lineup-ella-langley/",
+   "source": "TheWrap",
+   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-VDm7ttM_Msv5O08DW55khepk3n8ADDVDtqwXBYMugKPj2Hlb0XKtq8nncZ4"
+  },
+  {
+   "term": "register to vote",
    "traffic": "1000+",
-   "headline": "Washington Capitals star Alex Ovechkin announces this will be his last NHL season",
-   "url": "https://www.tsn.ca/nhl/article/ovechkin-announces-this-will-be-his-last-nhl-season/",
-   "source": "TSN",
-   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCupxahRO5-brXFFnBlhh7bEPv58e2bYByXWCYhJS43o1HmTQI8jp7OaqpZco"
+   "headline": "Registration deadline for midterm elections nears in Oklahoma",
+   "url": "https://fox23.com/news/local/registration-deadline-for-midterm-elections-nears-in-oklahoma",
+   "source": "KOKI FOX 23",
+   "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRiVHeurot3BryZ3OnirdRn1E4K8-gF8fzfR-5xmn6Kgz00ifPMTrzJE0rp8so"
   },
   {
    "term": "sun xinran",
-   "traffic": "1000+",
+   "traffic": "2000+",
    "headline": "Sun Xinran, the 16-year-old junior U.S. Open champion, is making the most of her WTA Tour debut",
    "url": "https://www.nytimes.com/athletic/7658636/2026/10/05/tennis-sun-xinran-china-open-coco-gauff/",
    "source": "The New York Times",
    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQieTC5RvGVXQjgBUeIhyOgrTxgZXbv3jMzhCP3veLhn-oZpAk3PwspyMj663I"
   },
   {
-   "term": "cleveland cavaliers",
-   "traffic": "500+",
-   "headline": "3 Things to Watch for In Cavs Preseason Opener",
-   "url": "https://www.si.com/nba/cavaliers/onsi/3-things-to-watch-for-in-cavs-preseason-opener-01m44c90c1m8",
-   "source": "Sports Illustrated",
-   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7xCyVzUcCFKLtawsTae6--a-gVk2fU7RhjpZHME1L2cP2HgkkLlL8LbD4His"
+   "term": "crime",
+   "traffic": "1000+",
+   "headline": "'Not again': Arrest of US marine for murder reignites protests in Japan's Okinawa",
+   "url": "https://www.bbc.com/news/articles/cwgkv70gg1j3o",
+   "source": "BBC",
+   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS7R9ruW64YU9XrgDiKvIVzrzHeLX7rqIH_f3LnBbb3tjefplPP0Kh24aJdyU8"
+  },
+  {
+   "term": "brittany mahomes",
+   "traffic": "20000+",
+   "headline": "Brittany Mahomes trolls Raiders after Las Vegas coach seemed certain team would beat Chiefs",
+   "url": "https://www.foxnews.com/outkick-sports/brittany-mahomes-trolls-raiders-las-vegas-coach-seemed-certain-team-would-beat-chiefs",
+   "source": "Fox News",
+   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSgdD7dyPePN-W8ioxI-3hkMezoh3F2CHQRJg5mlvESxCu_yQLptXte1gkIC4k"
+  },
+  {
+   "term": "alex ovechkin",
+   "traffic": "5000+",
+   "headline": "Alex Ovechkin announces his retirement.",
+   "url": "https://sports.yahoo.com/articles/alex-ovechkin-announces-retirement-151619108.html",
+   "source": "Yahoo Sports",
+   "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ1fRzmITvEsP-FI5FNIB0ik0b99oA83Uxj8U4zNIhdqTcZI_uFlmZe-Ef3Cxo"
   },
   {
    "term": "prince harry news",
-   "traffic": "5000+",
+   "traffic": "10000+",
    "headline": "Prince William ‘incandescent with anger’ at Prince Harry as Diana anniversary deepens royal rift: Piers Morgan",
    "url": "https://www.foxnews.com/entertainment/prince-william-incandescent-anger-prince-harry-diana-anniversary-deepens-royal-rift-piers-morgan",
    "source": "Fox News",
@@ -41,48 +73,16 @@
    "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT4wwCFYJ82SKBVVVhIpdZQdt1de6hcuxQ3LQ1qvwH5j3QzRxhjPRmlH1yuC14"
   },
   {
-   "term": "xbox game pass",
-   "traffic": "500+",
-   "headline": "Two More Games Revealed For Xbox Game Pass In 2026, Including A Surprise Shadow Drop",
-   "url": "https://www.purexbox.com/news/2026/10/two-more-games-revealed-for-xbox-game-pass-in-2026-including-a-surprise-shadow-drop1",
-   "source": "Pure Xbox",
-   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS-Zh3s89J8cF8EGf-vA2CKnFZmJVPfDgQSL7VrF5qDQEemX7yzZfaBBJkfLCY"
-  },
-  {
-   "term": "djia today",
-   "traffic": "500+",
-   "headline": "Stock Market Today: Dow Opens Lower, Dollar Strengthens as Investors Look for Safety — Live Updates",
-   "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-05-2026",
-   "source": "WSJ",
-   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL5OjCOOJ_DxUoogygATHkAw-5VUrtDxyHga_zjG2jhh4EIVnEluaAmmO1gX4"
-  },
-  {
-   "term": "microsoft stock",
-   "traffic": "1000+",
-   "headline": "Satya Nadella reinvented Microsoft once. Can he do it again in the AI era?",
-   "url": "https://www.cnbc.com/2026/10/05/satya-nadella-reinvented-microsoft-once-can-he-do-it-in-the-ai-era.html",
-   "source": "CNBC",
-   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsu0WQP6Hnq_se8A8l3l_TIojURnOGNh11gMy_0l-dk2wIj9o8LyubKic8OSA"
-  },
-  {
-   "term": "grand central parkway",
-   "traffic": "1000+",
-   "headline": "Driver charged in fatal Grand Central Parkway crash",
-   "url": "https://abc7ny.com/post/woman-killed-grand-central-parkway-hit-run-person-interest-custody/19907189/",
-   "source": "ABC7 Eyewitness News",
-   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSWDiRrPzfDdBPUQ-uFNvnb2tWUvhGk0kHDc8CMz4y4rTtyk9kOVPd2RVROVZc"
-  },
-  {
-   "term": "spcx stock price",
-   "traffic": "1000+",
-   "headline": "Elon Musk rebrands SpaceXAI following Trump directive",
-   "url": "https://www.foxbusiness.com/technology/elon-musk-rebrands-spacexai-following-trump-directive",
-   "source": "Fox Business",
-   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrDUHxBlp2axqVIOlAJUqRkg96brBEbpS78iHE0w5yLhneZpNfArlvlmK1JnU"
+   "term": "cleveland cavaliers",
+   "traffic": "2000+",
+   "headline": "Cavaliers Have A New Problem After Losing Several Key Bench Pieces",
+   "url": "https://sports.yahoo.com/articles/cavaliers-problem-losing-several-key-193110492.html",
+   "source": "Yahoo Sports",
+   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTzbNaPmhLLK_02C4sh8CNNRwNTkfkFdPZhHcDQGX_7ui3rhN4BOQtcL7WF3h4"
   }
  ],
- "trends_ent": 3,
- "trends_at": "2026-10-05T15:13+00:00",
+ "trends_ent": 4,
+ "trends_at": "2026-10-05T16:11+00:00",
  "songs": [
   {
    "name": "Solar Eclipse",
@@ -145,7 +145,7 @@
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/8d/52/9f8d52a0-b6d9-d038-327b-4fe58bedce67/26UMGIM94572.rgb.jpg/100x100bb.jpg"
   }
  ],
- "songs_at": "2026-10-05T13:16+00:00",
+ "songs_at": "2026-10-05T16:11+00:00",
  "albums": [
   {
    "name": "HABIBTI (FOMO)",
@@ -208,5 +208,5 @@
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/33/26/5a/33265a39-a36e-9455-716c-0e63a9173b29/075679570758.jpg/100x100bb.jpg"
   }
  ],
- "albums_at": "2026-10-05T15:13+00:00"
+ "albums_at": "2026-10-05T16:11+00:00"
 }
