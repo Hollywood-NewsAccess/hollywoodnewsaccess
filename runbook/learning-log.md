@@ -72,3 +72,16 @@ the code that hunts for missing photos, I tested it against a pretend internet t
 I controlled, with a good page, a bare page and a YouTube link. It passed every case
 before it ever touched a real website. That is called a *test with a stand-in*, or
 a *mock*.
+
+## 7. "Nothing changed" versus "something new"
+
+**The comparison:** a guard who checks that every painting in the gallery is still
+the same, but never looks at the empty wall where a new painting was just hung.
+
+**What it means here:** the hourly robot asked Git (the tool that tracks every file
+version) "did any page *change*?" using a command called `git diff`. That command
+only compares files Git already knows. The homepage had never existed, so it was a
+brand-new file and Git didn't compare it at all. The answer was always "no change",
+and the finished site was thrown away every hour. The fix uses `git status`, which
+also sees new files. Lesson: a check can say "all clear" when it isn't looking at
+the right thing.
