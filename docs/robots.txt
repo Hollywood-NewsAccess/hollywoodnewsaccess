@@ -1,6 +1,15 @@
 User-agent: *
 Allow: /
 
+# AI search engines are welcome: they cite and link our reporting.
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+Allow: /
+
 Sitemap: https://hollywoodnewsaccess.com/sitemap.xml
 Sitemap: https://hollywoodnewsaccess.com/news-sitemap.xml
 

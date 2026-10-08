@@ -1,0 +1,8 @@
+# Hollywood News Access
+
+> Celebrity, red carpet, movies, TV, music and love-life coverage from Hollywood. Original stories carry a byline and date; wire cards link to the original publisher.
+
+- [Front page](https://hollywoodnewsaccess.com/)
+- [Celebrity](https://hollywoodnewsaccess.com/celebrity.html) · [Red Carpet](https://hollywoodnewsaccess.com/red-carpet.html) · [Movies](https://hollywoodnewsaccess.com/movies.html) · [TV](https://hollywoodnewsaccess.com/tv.html) · [Music](https://hollywoodnewsaccess.com/music.html) · [Love](https://hollywoodnewsaccess.com/love.html)
+- [Charts](https://hollywoodnewsaccess.com/charts.html)
+- [Press Room](https://hollywoodnewsaccess.com/pressroom.html)
