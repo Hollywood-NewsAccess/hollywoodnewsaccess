@@ -154,7 +154,7 @@ footer nav a:hover{color:var(--hot)}
 <header class="masthead"><div class="wrap">
 <div><a class="brand" href="index.html">Hollywood <em>News Access</em></a>
 <div class="standfirst">The center of the entertainment universe</div></div>
-<div class="dateline"><b>Live from Hollywood</b>Monday, October 5, 2026</div>
+<div class="dateline"><b>Live from Hollywood</b><span id="today"></span></div><script>(function(){var e=document.getElementById("today");try{e.textContent=new Date().toLocaleDateString("en-US",{timeZone:"America/Los_Angeles",weekday:"long",month:"long",day:"numeric",year:"numeric"})}catch(x){}})();</script>
 </div></header>
 <nav class="nav"><ul>
 <li><a href="index.html">Home</a></li>

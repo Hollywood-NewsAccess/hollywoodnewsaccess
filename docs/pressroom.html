@@ -107,7 +107,7 @@ footer nav a:hover{color:var(--hot)}
 <header class="masthead"><div class="wrap">
 <div><a class="brand" href="index.html">Hollywood <em>News Access</em></a>
 <div class="standfirst">The center of the entertainment universe</div></div>
-<div class="dateline"><b>Live from Hollywood</b>Sunday, October 4, 2026</div>
+<div class="dateline"><b>Live from Hollywood</b><span id="today"></span></div><script>(function(){var e=document.getElementById("today");try{e.textContent=new Date().toLocaleDateString("en-US",{timeZone:"America/Los_Angeles",weekday:"long",month:"long",day:"numeric",year:"numeric"})}catch(x){}})();</script>
 </div></header>
 <nav class="nav"><ul>
 <li><a href="index.html">Home</a></li>
@@ -123,6 +123,7 @@ footer nav a:hover{color:var(--hot)}
 <main><div class="wrap" style="max-width:860px">
 <h2 class="sect">Press room</h2>
 <p class="sect-note">For publicists, studios, labels, networks and talent teams. How to get news to Hollywood News Access, how we work, and how to advertise.</p>
+<section id="latest" style="margin:22px 0 30px"><h3 style="margin:0 0 10px">Latest from our newsroom</h3><p><a href="freda-payne-catalina-hollywood-raves.html"><b>Freda Payne Stole VMAs Weekend</b></a><br><span style="color:#666">October 5, 2026 · Music · Photos by Terry Bryant, available to press with credit on request</span></p></section>
 
 <h2 class="sect" id="submit">Send us news</h2>
 <p>Tips, exclusives, first looks, red-carpet arrivals, premieres, album drops, casting, and anything the fans should hear first. Every tip is read. Nothing runs until it is confirmed, and we do not name sources who ask not to be named.</p>
