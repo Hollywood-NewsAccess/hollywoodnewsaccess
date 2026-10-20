@@ -1,89 +1,95 @@
 {
  "trends": [
   {
-   "term": "jonathan taylor",
-   "traffic": "5000+",
-   "headline": "NY Giants could take advantage if Indianapolis Colts go into fire sale mode",
-   "url": "https://www.bigblueview.com/new-york-giants-rumors/176823/indianapolis-colts-fire-sale-jonathan-taylor-quenton-nelson-deforest-buckner-trade-deadline",
-   "source": "Big Blue View",
-   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSMlraEY5bMfotBu7o2Q2Qx3d5bbgc9Kgb366YESUkEXPu_mE_DGxFMPfMXYtc"
-  },
-  {
-   "term": "visa",
+   "term": "vj edgecombe",
    "traffic": "200+",
-   "headline": "Visa (V) Reports Next Week: Wall Street Expects Earnings Growth",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/visa-v-reports-next-week-130008042.html",
-   "source": "Yahoo Finance",
-   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRzT-FqlRmU55qIft8NJovK8GGEW2Tv4Fx-XP1jYA-ff7ILXlL7N1WUzIyGNxY"
+   "headline": "76ers Stars Reveal What It’s Really Like Having LeBron James as a Teammate",
+   "url": "https://sports.yahoo.com/articles/76ers-stars-reveal-really-having-210040308.html",
+   "source": "Yahoo Sports",
+   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS_Hf_xPd5sDa24XjIkwKrh_52EOEraAveutXVCIV-Kt5JmBhhvLYtncbbU7Vk"
   },
   {
-   "term": "rodri",
-   "traffic": "500+",
-   "headline": "Rodri avisa de cara al duelo de Champions: \"El PSG es posiblemente el mejor equipo del mundo\"",
-   "url": "https://www.si.com/es-us/rodri-avisa-de-cara-al-duelo-de-champions-el-psg-es-posiblemente-el-mejor-equipo-del-mundo",
-   "source": "Sports Illustrated",
-   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRzfsCj39v8qAbueV8RTD9HPdp8TCaemNPH7Uuef9zNpSJUJz32VYZaGNptgZM"
-  },
-  {
-   "term": "wolves vs portsmouth",
-   "traffic": "500+",
-   "headline": "Wolverhampton Wanderers v Portsmouth LIVE: Text commentary from the Championship",
-   "url": "https://www.bbc.com/sport/football/live/c95ynk180zget",
-   "source": "BBC",
-   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcThtU-0fytCAkh3GHDnuw930wkyFwsMUiM1F6_xFrU_jRxpmVZkBBcLM0xQsy0"
-  },
-  {
-   "term": "judge questions trump administration legal credibility",
-   "traffic": "10000+",
-   "headline": "Trump calls judge in East Potomac case a 'crazed lunatic' as interior official testifies on who ordered hundreds of trees cut at historic golf course",
-   "url": "https://www.wusa9.com/article/news/legal/trump-calls-judge-east-potomac-case-a-crazed-lunatic-interior-official-testifies-on-who-ordered-hundreds-of-trees-cut-at-historic-golf-course/65-346c7183-563b-42b1-aacf-1d3d3ddfde71",
-   "source": "WUSA9",
-   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBoz-sobEcO_jB1e4PqIHYLRepBGZ9Aa5SuyJ7_mnp2uL1y75M8MsZaiZxlWM"
-  },
-  {
-   "term": "downdetector",
-   "traffic": "1000+",
-   "headline": "Revolut says some services back online after outage",
-   "url": "https://www.reuters.com/business/finance/revolut-says-some-services-back-online-after-outage-2026-10-20/",
-   "source": "Reuters",
-   "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTJZQgjGD7s13UDtKPD5_QqjN4_3y3njnY1bCotWYYf5kPHuBrHSEGgin1-PRk"
-  },
-  {
-   "term": "california great white shark breach",
-   "traffic": "2000+",
-   "headline": "Great white shark leaps from water and photobombs California beachgoers",
-   "url": "https://www.theguardian.com/us-news/2026/oct/20/great-white-shark-photobomb-california",
-   "source": "The Guardian",
-   "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTUlV6_tRaoMLLSLwCzHgzSgmgWTpFkLd1IzhdkRNS4BadMVg28OHyEGu7TIUI"
-  },
-  {
-   "term": "al-nassr vs neom",
-   "traffic": "5000+",
-   "headline": "Cristiano Ronaldo suffers setback as Kingsley Coman is reportedly sidelined for Al Nassr vs Neom",
-   "url": "https://worldsoccertalk.com/news/cristiano-ronaldo-suffers-setback-as-kingsley-coman-is-reportedly-sidelined-for-al-nassr-vs-neom/",
-   "source": "World Soccer Talk",
-   "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRSqNJ1bS5pr90S-ej4wQWcl_wNGC-eraSFblqzC_IfgO97_TNaGNxyfRtLshQ"
-  },
-  {
-   "term": "trump vance announcement today",
-   "traffic": "1000+",
-   "headline": "Trump to Offer Up to $30,000 for Tips That Expose Government Fraud",
-   "url": "https://www.wsj.com/politics/policy/trump-to-offer-up-to-30-000-for-tips-that-expose-government-fraud-3a1bcb30",
-   "source": "WSJ",
-   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR6UppUZBWlYoH-rf834RXzX1xT5o5S1QHpGDAwmHqFCILUcU76pcXFFtQ_YIk"
-  },
-  {
-   "term": "elon musk congressional oversight democrats",
+   "term": "tyrese maxey",
    "traffic": "200+",
-   "headline": "Democrats have a message for Elon Musk: Watch out",
-   "url": "https://www.politico.com/news/2026/10/20/elon-musk-democrats-oversight-01127543",
-   "source": "Politico",
-   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT4NPUNbavB1QRe3WmMpJU6dCc4VCswyy7ur3LoRVVmHDpTtcDKg6aIorcJyf4"
+   "headline": "Tyrese Maxey no longer a ‘kid’ in Philadelphia. He’s the key to making the 76ers work",
+   "url": "https://www.nytimes.com/athletic/7701465/2026/10/20/tyrese-maxey-sixers-maturation-growth-nba/",
+   "source": "The New York Times",
+   "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ3dIsJtrVGY6ZwhX5stZ_uHRi8zCEc3ttBW1hFX2vqQf1kRGjVpDo9T5s68_o"
+  },
+  {
+   "term": "karl anthony towns",
+   "traffic": "500+",
+   "headline": "Not buying the Knicks’ KAT contract drama",
+   "url": "https://www.postingandtoasting.com/knicks-features-profiles/90203/not-buying-the-knicks-kat-contract-drama",
+   "source": "Posting and Toasting",
+   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQHw8MWeiyRNbqq2yvEiAyQhRtBC6MToISvc6l1UAlzWfE13qOzdFtmWrDIua0"
+  },
+  {
+   "term": "south alabama vs marshall prediction",
+   "traffic": "200+",
+   "headline": "South Alabama vs Marshall Prediction, Top Picks & Odds Tonight: College Football Week 8",
+   "url": "https://www.covers.com/ncaaf/south-alabama-vs-marshall-prediction-picks-odds-best-bets-tonight-oct-20-2026",
+   "source": "Covers.com",
+   "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQvnD_0HgOSf1y0cc9h3yQZvX8Vq5mPXlhSRyX6CuYGrCab58qobec6G-wXAD0"
+  },
+  {
+   "term": "lebron james stats",
+   "traffic": "500+",
+   "headline": "Columbus Blue Jackets 2026-27 NHL Line Combo",
+   "url": "https://www.espn.com/nhl/team/line-combo/_/name/cbj/columbus-blue-jackets",
+   "source": "ESPN",
+   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR10Gefv07S3i7eg1T43zCdhC4su5ZGfRw0-ELnqGq_pb9BiKxYMcXCRMOy6Co"
+  },
+  {
+   "term": "election contest",
+   "traffic": "1000+",
+   "headline": "Hottest 2026 Midterm Races—Talarico Up 2 Points In Texas Senate Race In Latest Poll (Updated Daily)",
+   "url": "https://www.forbes.com/sites/saradorn/2026/10/19/hottest-2026-midterm-races-talarico-up-2-points-in-texas-senate-race-in-latest-poll-updated-daily/",
+   "source": "Forbes",
+   "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTvWgVig-us3fU62lg2iXae6uhgvri99LIsR7EV1lG2mWsBqFzcb7id_MxGsLY"
+  },
+  {
+   "term": "ronald holland ii",
+   "traffic": "500+",
+   "headline": "Detroit Pistons pick up Ron Holland's fourth-year option: report",
+   "url": "https://www.freep.com/story/sports/nba/pistons/2026/10/20/detroit-pistons-pick-up-ron-hollands-fourth-year-option/92344170007/",
+   "source": "Detroit Free Press",
+   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS60diPf3wCnux0CBUhLucwhw0-9-s11yk2Imb5HDYh9dNhVgw_5W_NAWTQnY"
+  },
+  {
+   "term": "oilprice.com",
+   "traffic": "500+",
+   "headline": "Norway's Gas Production Plunges 12.6% as Europe Heads into Winter",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Gas-Production-Plunges-126-as-Europe-Heads-into-Winter.html",
+   "source": "Crude Oil Prices Today | OilPrice.com",
+   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT48yS6F0w4-6PdDqCh4r9-QX5Bt07nM_YiXdoL4se8yrtTUGrrH5upf9bpDg"
+  },
+  {
+   "term": "elijah mitchell",
+   "traffic": "500+",
+   "headline": "Eagles roster moves include 4 running back transactions",
+   "url": "https://www.bleedinggreennation.com/news/187748/eagles-roster-moves-include-4-running-back-transactions",
+   "source": "Bleeding Green Nation",
+   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeTFgnOOqvaupWzq_DN2T0BwymxCtI7B51BrfivTm5gc0UVRUm2PUYrQtEmfU"
+  },
+  {
+   "term": "dow jones industrial average",
+   "traffic": "5000+",
+   "headline": "Dow jumps 500 points as earnings optimism steadies market: Live updates",
+   "url": "https://www.cnbc.com/2026/10/19/stock-market-today-live-updates.html",
+   "source": "CNBC",
+   "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSzleA-Uh67bbpHL4aKHqdcsse_7N3O50qiq6tY6jooz0v2uyBxthkCxmsI5x4"
   }
  ],
- "trends_ent": 0,
- "trends_at": "2026-10-20T18:20+00:00",
+ "trends_ent": 1,
+ "trends_at": "2026-10-20T22:05+00:00",
  "songs": [
+  {
+   "name": "Housewife",
+   "artist": "Tate McRae",
+   "url": "https://music.apple.com/us/album/housewife/6822497770?i=6822497774",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2b/96/2b/2b962b77-3a04-5650-aefd-37ecfce04b03/196874840146.jpg/100x100bb.jpg"
+  },
   {
    "name": "Lies (feat. Lana Del Rey)",
    "artist": "Zach Bryan & Lana Del Rey",
@@ -91,10 +97,10 @@
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ea/98/f2/ea98f2b8-5131-29ae-2064-997234ef13bc/093624812647.jpg/100x100bb.jpg"
   },
   {
-   "name": "Housewife",
-   "artist": "Tate McRae",
-   "url": "https://music.apple.com/us/album/housewife/6822497770?i=6822497774",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2b/96/2b/2b962b77-3a04-5650-aefd-37ecfce04b03/196874840146.jpg/100x100bb.jpg"
+   "name": "BbY WOW",
+   "artist": "KAROL G, Judeline & rusowsky",
+   "url": "https://music.apple.com/us/album/bby-wow/6796864741?i=6796864754",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg"
   },
   {
    "name": "Choosin' Texas",
@@ -109,22 +115,10 @@
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/45/62/bb4562a3-45a2-539c-b557-a18ea060a476/26UMGIM63616.rgb.jpg/100x100bb.jpg"
   },
   {
-   "name": "BbY WOW",
-   "artist": "KAROL G, Judeline & rusowsky",
-   "url": "https://music.apple.com/us/album/bby-wow/6796864741?i=6796864754",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg"
-  },
-  {
    "name": "Lodi When",
    "artist": "Zach Bryan",
    "url": "https://music.apple.com/us/album/lodi-when/6822944288?i=6822944289",
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ea/98/f2/ea98f2b8-5131-29ae-2064-997234ef13bc/093624812647.jpg/100x100bb.jpg"
-  },
-  {
-   "name": "Quebec",
-   "artist": "Drake",
-   "url": "https://music.apple.com/us/album/quebec/6818209777?i=6818209990",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/45/62/bb4562a3-45a2-539c-b557-a18ea060a476/26UMGIM63616.rgb.jpg/100x100bb.jpg"
   },
   {
    "name": "Nicole Kidman",
@@ -133,19 +127,25 @@
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/53/c6/9a/53c69a6a-d1c4-0983-a20c-a67dceae554f/26UMGIM82372.rgb.jpg/100x100bb.jpg"
   },
   {
-   "name": "Been By Now",
-   "artist": "Morgan Wallen",
-   "url": "https://music.apple.com/us/album/been-by-now/6792676858?i=6792676860",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/8d/52/9f8d52a0-b6d9-d038-327b-4fe58bedce67/26UMGIM94572.rgb.jpg/100x100bb.jpg"
+   "name": "Quebec",
+   "artist": "Drake",
+   "url": "https://music.apple.com/us/album/quebec/6818209777?i=6818209990",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/45/62/bb4562a3-45a2-539c-b557-a18ea060a476/26UMGIM63616.rgb.jpg/100x100bb.jpg"
   },
   {
    "name": "Janice STFU",
    "artist": "Drake",
    "url": "https://music.apple.com/us/album/janice-stfu/6769568449?i=6769568596",
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/b9/06/35b90629-a873-14f8-4789-ffc324960038/26UMGIM63614.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "name": "Been By Now",
+   "artist": "Morgan Wallen",
+   "url": "https://music.apple.com/us/album/been-by-now/6792676858?i=6792676860",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/8d/52/9f8d52a0-b6d9-d038-327b-4fe58bedce67/26UMGIM94572.rgb.jpg/100x100bb.jpg"
   }
  ],
- "songs_at": "2026-10-20T01:34+00:00",
+ "songs_at": "2026-10-20T22:05+00:00",
  "albums": [
   {
    "name": "Young Manhood and Other Donatable Organs",
@@ -160,16 +160,16 @@
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/45/62/bb4562a3-45a2-539c-b557-a18ea060a476/26UMGIM63616.rgb.jpg/100x100bb.jpg"
   },
   {
-   "name": "Last Laugh (archive tape)",
-   "artist": "LUCKI",
-   "url": "https://music.apple.com/us/album/last-laugh-archive-tape/6821145872",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f2/86/5b/f2865b24-38e4-3dd5-ec09-79237f827052/199316782172_cover.jpg/100x100bb.jpg"
-  },
-  {
    "name": "you seem pretty sad for a girl so in love",
    "artist": "Olivia Rodrigo",
    "url": "https://music.apple.com/us/album/you-seem-pretty-sad-for-a-girl-so-in-love/1889992111",
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "name": "Last Laugh (archive tape)",
+   "artist": "LUCKI",
+   "url": "https://music.apple.com/us/album/last-laugh-archive-tape/6821145872",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f2/86/5b/f2865b24-38e4-3dd5-ec09-79237f827052/199316782172_cover.jpg/100x100bb.jpg"
   },
   {
    "name": "Don't Look Down",
@@ -208,5 +208,5 @@
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ae/87/41/ae874195-6c56-cc5a-332b-13e677f4bd66/075679572530.jpg/100x100bb.jpg"
   }
  ],
- "albums_at": "2026-10-20T18:20+00:00"
+ "albums_at": "2026-10-20T22:05+00:00"
 }
