@@ -1,88 +1,88 @@
 {
  "trends": [
   {
-   "term": "brazil election",
+   "term": "taylor fritz",
    "traffic": "500+",
-   "headline": "Flavio Bolsonaro and Lula about even ahead of Brazil runoff, Datafolha poll shows",
-   "url": "https://www.reuters.com/world/americas/flavio-bolsonaro-lula-about-even-ahead-brazil-runoff-datafolha-poll-shows-2026-10-22/",
-   "source": "Reuters",
-   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQYBmWJs7NOeHlthDoQIHDXXZ2WotMNquhSG66OJdfQZ9wujwSzXngu7yHeF8o"
+   "headline": "Fritz shakes off scary fall, Cobolli fires past Wawrinka in Lyon",
+   "url": "https://www.atptour.com/en/news/fritz-herbert-cobolli-wawrinka-lyon-2026-thursday",
+   "source": "ATP Tour",
+   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRCl7cn9ly4sTT3MKWvYQ6bcjoFwX9BLZMPTE6e6LieasUqhThdfKGVRr-Esdo"
   },
   {
-   "term": "collision",
+   "term": "criminal lawyer",
+   "traffic": "500+",
+   "headline": "Why Every Divorce Attorney Should Have a Criminal Defense Lawyer on Speed Dial",
+   "url": "https://www.law.com/dailybusinessreview/2026/10/23/why-every-divorce-attorney-should-have-a-criminal-defense-lawyer-on-speed-dial/",
+   "source": "Law.com",
+   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSajdHwK1qssB2qpnNWSMlgB1__8KTXiXl3jewYn3VBHm9VJjbfqDWjj_S3v-I"
+  },
+  {
+   "term": "natalee holloway",
    "traffic": "200+",
-   "headline": "Video: 4 Pilots Killed As 2 Planes Crash Mid-Air During Training In Philippines",
-   "url": "https://www.ndtv.com/world-news/4-pilots-killed-as-2-planes-crash-mid-air-during-training-in-philippines-12229111",
-   "source": "NDTV",
-   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQxXfFMggcHRsVZ8jA8wL5ooUuPl9QFYY0YElXpRkpGxb7t1tX6w0dqEnDbKUk"
+   "headline": "Netflix to revisit Aruba disappearance, death of Mountain Brook’s Natalee Holloway",
+   "url": "https://www.al.com/news/2026/10/netflix-to-revisit-aruba-disappearance-death-of-mountain-brooks-natalee-holloway.html",
+   "source": "AL.com",
+   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdntNqOSaQvwq3g2DVshvC2kZvmhR24Jj-6I_haR5wahHuYvq3DsMkla0ZWLI"
   },
   {
-   "term": "coastal flood warning",
+   "term": "ohio state game today",
    "traffic": "200+",
-   "headline": "Newport Beach adds sand to build up beach in battle against the sea",
-   "url": "https://www.ocregister.com/2026/10/23/newport-beach-adds-sand-to-build-up-beach-in-battle-against-the-sea/",
-   "source": "Orange County Register",
-   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyHifYjIDPDaOZL9PPKbloC3M4uAxxtFexU8xIxEnU6uYxI0iUStU3ANNq1gU"
-  },
-  {
-   "term": "leylah fernandez",
-   "traffic": "200+",
-   "headline": "Fernandez's marathon win, Kostyuk's retirement headline Day 3 in Ningbo",
-   "url": "https://www.wtatennis.com/news/4596745/fernandezs-marathon-win-kostyuks-retirement-headline-day-3-in-ningbo",
-   "source": "WTA Tennis",
-   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQSvzBApnqCabMx0jPf4Ee2y-rfCAPFq430eGOo6Dp5gouAh9qLPdUOy62q7Ro"
-  },
-  {
-   "term": "cloudflare",
-   "traffic": "200+",
-   "headline": "What Is PHP? Why Are Government and Business Websites Going Offline?",
-   "url": "https://www.nytimes.com/2026/10/22/technology/what-is-php-vulnerability-risks.html",
-   "source": "The New York Times",
-   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR_hbij8wdcrfZtYMIq19Hy2r-0VsDJEZwDDcC3Kizy1f3y8Do37Uyzd6e412M"
-  },
-  {
-   "term": "cher",
-   "traffic": "100+",
-   "headline": "In 1993, Cher bought a Miami Beach Waterfront mansion for $1.5 million and sold it for $4.35 million in 1",
-   "url": "https://timesofindia.indiatimes.com/entertainment/english/hollywood/news/in-1993-cher-bought-a-miami-beach-waterfront-mansion-for-1-5-million-and-sold-it-for-4-35-million-in-1996-inside-her-former-la-gorce-island-home/articleshow/135110908.cms",
-   "source": "The Times of India",
-   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSyWLXpDKjnafAH7Aq3fFNNBOjeZqqbwTUWPzKZfIOTxPzJnU2wCLMa-5_MzzQ"
-  },
-  {
-   "term": "ufc",
-   "traffic": "5000+",
-   "headline": "Fight By Fight Preview | UFC 333: Volkanovski vs Evloev",
-   "url": "https://www.ufc.com/news/fight-fight-preview-ufc-333-volkanovski-vs-evloev",
-   "source": "UFC.com",
-   "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ9eo2uKLrnBZXwOf74cPjIHpBXNGW6y9iv_ocDtuqxjzA9uHRslcaWADwy13g"
-  },
-  {
-   "term": "kimi",
-   "traffic": "100+",
-   "headline": "Moonshot curbs hacking ability in new Kimi model as fears grow over AI-powered cyberattacks",
-   "url": "https://www.reuters.com/technology/moonshot-curbs-hacking-ability-new-kimi-model-fears-grow-over-ai-powered-2026-10-24/",
-   "source": "Reuters",
-   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSnRO8q4xMDTvTIIQwApwnPCH2HtN8E-OvbaLvtchLwxmoOBq1z1IsxUZ1V_RQ"
-  },
-  {
-   "term": "barca vs real madrid",
-   "traffic": "200+",
-   "headline": "Barcelona-Real Madrid: Clásico form, team news, combined XI, predictions, odds",
-   "url": "https://www.espn.com/soccer/story/_/id/50227950/barcelona-real-madrid-laliga-clasico-form-team-news-combined-xi-predictions-odds-all-head-head",
+   "headline": "2026 CFB Player Rank - The top 25 players at midseason",
+   "url": "https://www.espn.com/college-football/story/_/id/50232147/2026-midseason-player-rank-top-25",
    "source": "ESPN",
-   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ259-gQyUoCEWU4WUb2TAIfxWkr_aPI5Cpjy23sjUeuBkulua5Grb8-pknFsk"
+   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQPE-HdpsSniTxjUS6341T5oKoDBoWGrq9cP4qFBVoum6-xDBRq3gqX_UWZVco"
   },
   {
-   "term": "vanities",
+   "term": "student",
    "traffic": "200+",
-   "headline": "The MAGA Face That Launched a Thousand Memes",
-   "url": "https://www.vanityfair.com/story/is-mar-a-lago-face-botched",
-   "source": "Vanity Fair",
-   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTt_9fJoE7VluWPX4-bhiYpouVd5yh5wbbSr-gmhW6WFFk7sC7MxXzY23XRgao"
+   "headline": "L.E.A.D. Academy teacher arrested after allegedly selling pills to student, court documents say",
+   "url": "https://www.wsfa.com/2026/10/23/lead-academy-teacher-arrested-after-allegedly-selling-pills-student-court-documents-say/",
+   "source": "WSFA",
+   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSFFRFO1LY3hAjE_C_y-2oJ-gP9h7SCMJ7PSKFuGh3XaY2yzxKPJemwBFiAYbY"
+  },
+  {
+   "term": "tommy paul",
+   "traffic": "500+",
+   "headline": "Sports News, Transfers, Scores | Watch Live Sport",
+   "url": "https://www.skysports.com/tennis/watch/4978533672562253112/grand-prix-auvergne-rhone-alpes-2026",
+   "source": "Sky Sports",
+   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRWSIbNWHTx7LE6jfqNlit7NIEQ_J0qv-BgM_sIFV4_1GzAg0OHCxOCl_VjlXU"
+  },
+  {
+   "term": "cagliari vs bologna",
+   "traffic": "200+",
+   "headline": "Cagliari vs Bologna: Italian Serie A stats & head-to-head",
+   "url": "https://www.bbc.com/sport/football/live/cmn04x58ery4t",
+   "source": "BBC",
+   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSpSy8B44wqvYz6aKyLDVh8FE1ZKCzBz-1NyBPMX1aoedtBno8kOwzP6dYdNaY"
+  },
+  {
+   "term": "rb leipzig vs sv elversberg",
+   "traffic": "500+",
+   "headline": "Die SV Elversberg fordert die „roten Bullen“ von RB Leipzig",
+   "url": "https://www.sr.de/sr/home/sport/fussball_bundesliga_rb_leipzig_gegen_sv_elversberg_100.html",
+   "source": "SR.de",
+   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRIoOqg-WgW_lUcqbPQYB7Cify7pBsmUQsyn4TcOtqpHesJZi0Y3F5y3epGK9w"
+  },
+  {
+   "term": "nc state fair",
+   "traffic": "500+",
+   "headline": "NC State fairgoers say pricing is getting out of hand",
+   "url": "https://www.cbs17.com/nc-state-fair/nc-state-fairgoers-say-pricing-is-getting-out-of-hand/",
+   "source": "CBS 17",
+   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTdMFksKNMtr37bY02hWZIz-VM4qPeqK01UyIPMeKxDrG5oOdNRDVKrXzg4zE4"
+  },
+  {
+   "term": "is early voting open on saturday",
+   "traffic": "200+",
+   "headline": "Early voting begins today in Central NY: What to know before you vote",
+   "url": "https://www.syracuse.com/politics/cny/2026/10/early-voting-begins-today-what-to-know-before-you-vote.html",
+   "source": "Syracuse.com",
+   "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRQIYNCyC8NxNeVhupi9DFbfpXwrcd4phg8gOAIO1WQilxGWMEkNRHNcyJlqag"
   }
  ],
- "trends_ent": 2,
- "trends_at": "2026-10-24T08:37+00:00",
+ "trends_ent": 4,
+ "trends_at": "2026-10-24T13:05+00:00",
  "songs": [
   {
    "name": "Housewife",
