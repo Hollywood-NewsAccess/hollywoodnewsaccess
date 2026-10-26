@@ -1,100 +1,94 @@
 {
  "trends": [
   {
-   "term": "star wars",
-   "traffic": "200+",
-   "headline": "Sci-Fi Writer Andy Weir Has A Fascinating Idea For A Star Trek And Star Wars Crossover",
-   "url": "https://www.imdb.com/es/news/ni66080102/?ref_=int_nwr_3",
-   "source": "IMDb",
-   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQrtXsg4IXAsupTvpqU37EXCA2MuNUmVxsfy5tLuYHM3rfCjuE2kAl9PsP8dAU"
+   "term": "pere romeu",
+   "traffic": "1000+",
+   "headline": "Brugts evita la tragedia",
+   "url": "https://as.com/futbol/femenino/brugts-evita-la-tragedia-f202610-n/",
+   "source": "Diario AS",
+   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRzJzZNDpy0vSoyVfTbCDP0FAq7tU0rESv8ps6k1WC-NUYqSuLC_67ME0dDKxY"
   },
   {
-   "term": "maurene comey",
+   "term": "thierry henry",
    "traffic": "500+",
-   "headline": "Trump DOJ unlawfully fired Epstein prosecutor Maurene Comey, judge rules",
-   "url": "https://www.cnbc.com/2026/10/26/maurene-comey-firing-unlawful-trump.html",
-   "source": "CNBC",
-   "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTdAq4NrLhT-sVwOhcAofLkBi6W0E7yibRDPE0igtssW8JcfXUznxdJYzozahw"
+   "headline": "Who is Thierry Henry’s girlfriend Andrea Rajacic and how many children do couple have?",
+   "url": "https://www.thesun.co.uk/sport/40808092/thierry-henry-girlfriend-andrea-rajacic-children/",
+   "source": "The Sun",
+   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_FYkIHMxc9c_v0-arg1KOfUKIo3k4PpCkUx2QWAeN2IsCPaFOb2W5X_D4oi4"
   },
   {
-   "term": "microsoft",
-   "traffic": "5000+",
-   "headline": "Microsoft offers voluntary buyouts to 60,000 employees",
-   "url": "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html",
-   "source": "CNBC",
-   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQriCBoH-uHiRWpFZ6Gu_5O2ty6YPHveEE5sk_8qdE_3MQBNTYFauMSObScSSM"
-  },
-  {
-   "term": "mouthwashing xbox game pass release",
+   "term": "mnf tonight",
    "traffic": "2000+",
-   "headline": "Coming to XBOX Game Pass: Final Fantasy VII Remake Intergrade, The Séance of Blake Manor, and More",
-   "url": "https://news.xbox.com/en-us/2026/10/20/xbox-game-pass-october-2026-wave-2/",
-   "source": "XBOX Wire",
-   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQzYaVpaM0tlZ9d25e5tEm6bfX-H21dBvEq--KiXJ0M0U_C6VLAuxJSegl_8TQ"
-  },
-  {
-   "term": "tax",
-   "traffic": "500+",
-   "headline": "McMullen Tax Service Helps Tyler & East Texas Taxpayers Tackle IRS Notices Before Year-End",
-   "url": "https://www.einpresswire.com/article/952366940/mcmullen-tax-service-helps-tyler-east-texas-taxpayers-tackle-irs-notices-before-year-end",
-   "source": "EIN Presswire",
-   "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSjIMV_a-nyNkPT5Q8MWNLBi429r4wDiGsrxNzOsQ0TPxb7DjoqZktDkDCrRno"
-  },
-  {
-   "term": "sam raimi",
-   "traffic": "500+",
-   "headline": "Sam Raimi’s R-Rated Horror Nightmare Is Officially Back From the Dead on HBO Max",
-   "url": "https://collider.com/evil-dead-burn-streaming-success-hbo-max-october-2026/",
-   "source": "Collider",
-   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS3_aaapAiZtp3IVBWcMqjqo3wli_HROEZL_6lqRv_bFOLskWmh2-NanYn162o"
-  },
-  {
-   "term": "new ipad mini 2026",
-   "traffic": "1000+",
-   "headline": "Apple gives iPad mini its biggest update ever",
-   "url": "https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/",
-   "source": "Apple",
-   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnONjLuECi31ZW7R3T_Iz09JTzgZXga53siAnTZG_0zX3bwmvFtGAU7leWQGU"
-  },
-  {
-   "term": "姆巴佩",
-   "traffic": "1000+",
-   "headline": "懂球帝关于姆巴佩不当言论的声明",
-   "url": "https://m.dongqiudi.com/article/6560777.html",
-   "source": "懂球帝",
-   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTnHn05sjks08LlB8VEJmmA0umDDKUskRzpeGA4wZ12s7fkNcrm-pR9MV1EN60"
-  },
-  {
-   "term": "dazn",
-   "traffic": "5000+",
-   "headline": "Devin Haney inks multifight deal with DAZN, wants 'biggest challenges'",
-   "url": "https://www.espn.com/boxing/story/_/id/50260336/haney-inks-multifight-deal-dazn-wants-biggest-challenges",
+   "headline": "How to bet Cowboys-Eagles: Analysis, tips and top prop plays",
+   "url": "https://www.espn.com/espn/betting/story/_/id/50284388/nfl-week-7-odds-betting-tips-cowboys-eagles-preview",
    "source": "ESPN",
-   "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR57CxvQ3SZ8wRvlz_D2m0dXp-kBYtGZQ5KRtZu-GACMYNJvJB_QBXitSmmTyA"
+   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT12BoKY3yEKbVI1wMOcOMuX_I0FnvWpMw7dqQ9-Sl6wKB2g9x8Y2hHnQOhUHQ"
   },
   {
-   "term": "dez bryant",
+   "term": "kopa trophy",
    "traffic": "500+",
-   "headline": "Dez Bryant recalls police incident after clash with drivers",
-   "url": "https://www.foxnews.com/video/6407408025112",
-   "source": "Fox News",
-   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUWogM89JwreT8OfGpw21X9jLlThxm6K7Y365bHgfEgH_kVzCc6568KwL1ag4"
+   "headline": "CIES ‘Ballon d’Or’: Lamine Yamal again",
+   "url": "https://football-observatory.com/CIES-Ballon-d-Or-Lamine-Yamal-again",
+   "source": "Observatoire du football CIES",
+   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ3Lhb1jAMNA-BPwAIhmjIF3Znsuz_2d9GmbAGnSnGhbynUcIB6RsTaH9TY4Cc"
+  },
+  {
+   "term": "malik scott",
+   "traffic": "500+",
+   "headline": "Britain Ballon D'Or Soccer",
+   "url": "https://www.idahopress.com/sports/national/britain-ballon-dor-soccer/image_d3ac87fa-05fb-5948-889e-773087947ae0.html",
+   "source": "Idaho Press",
+   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTYKnGaT6So9o_XDYp_pU1L2dPAhI1X7SCNJ8O_k8_VNIS5tQ0bIDPnfRQHR1U"
+  },
+  {
+   "term": "troy aikman joe buck feud",
+   "traffic": "500+",
+   "headline": "Joe Buck and Troy Aikman could be headed for a split. Why that matters more than you think",
+   "url": "https://sports.yahoo.com/nfl/article/joe-buck-and-troy-aikman-could-be-headed-for-a-split-why-that-matters-more-than-you-think-152044951.html",
+   "source": "Yahoo Sports",
+   "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSk6KqbWgtS8F8-5ecjBrerk3Zs3HSFWX0gSJig63RzqgI8SMOHhLKgY0TUxl4"
+  },
+  {
+   "term": "bunny shaw",
+   "traffic": "500+",
+   "headline": "Bunny is working hard on all aspects of her game – Jeglertz",
+   "url": "https://www.mancity.com/citytv/womens/andree-jeglertz-manchester-united-press-conference-video-23-october-63928359",
+   "source": "Manchester City FC",
+   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS31Zk94jYijyrLXCV6GHMYeT6LOOxDAPy97vdJnyBeVPUBVr2KqrCUSvbqyEE"
+  },
+  {
+   "term": "doxing",
+   "traffic": "500+",
+   "headline": "The Doxing of Jane Doe",
+   "url": "https://www.newyorker.com/news/american-chronicles/the-doxing-of-jane-doe",
+   "source": "The New Yorker",
+   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRzjI3CpEkXZhqciOI8zN3nO7cdGAzzUJHdMWlsJJcMn6xrYtV1905vV-Lp-8g"
+  },
+  {
+   "term": "scarlett camberos",
+   "traffic": "500+",
+   "headline": "Julián Quiñones, lugar 28 en Balón de Oro; razones para ser nominado",
+   "url": "https://espndeportes.espn.com/futbol/nota/_/id/17412181/julian-quinones-drazones-nominacion-balon-de-oro",
+   "source": "ESPN Deportes",
+   "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQF8zXxjap8jcDezGo3xJJrYErc_8fXaexEtN2Xn_Lhyafl2r6iIKDxx5WIrRI"
+  },
+  {
+   "term": "jim cramer stock pick anthropic",
+   "traffic": "200+",
+   "headline": "Meta, SpaceX, Anthropic stoke the AI funding frenzy. What it means for our stocks",
+   "url": "https://www.cnbc.com/investingclub/2026/10/26/meta-spacex-anthropic-stoke-the-ai-funding-frenzy-what-it-means-for-our-stocks.html",
+   "source": "CNBC",
+   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT65Z7F189OHyyFbWF3l00YFa9BIfNyshqkBzSnGYexWSDVfGEocgB00iCI1AM"
   }
  ],
- "trends_ent": 1,
- "trends_at": "2026-10-26T16:28+00:00",
+ "trends_ent": 0,
+ "trends_at": "2026-10-26T21:20+00:00",
  "songs": [
   {
    "name": "Housewife",
    "artist": "Tate McRae",
    "url": "https://music.apple.com/us/album/housewife/6822497770?i=6822497774",
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2b/96/2b/2b962b77-3a04-5650-aefd-37ecfce04b03/196874840146.jpg/100x100bb.jpg"
-  },
-  {
-   "name": "BbY WOW",
-   "artist": "KAROL G, Judeline & rusowsky",
-   "url": "https://music.apple.com/us/album/bby-wow/6796864741?i=6796864754",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg"
   },
   {
    "name": "Choosin' Texas",
@@ -109,10 +103,22 @@
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ea/98/f2/ea98f2b8-5131-29ae-2064-997234ef13bc/093624812647.jpg/100x100bb.jpg"
   },
   {
+   "name": "BbY WOW",
+   "artist": "KAROL G, Judeline & rusowsky",
+   "url": "https://music.apple.com/us/album/bby-wow/6796864741?i=6796864754",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg"
+  },
+  {
    "name": "Solar Eclipse",
    "artist": "Drake & Don Toliver",
    "url": "https://music.apple.com/us/album/solar-eclipse/6818209777?i=6818209989",
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/45/62/bb4562a3-45a2-539c-b557-a18ea060a476/26UMGIM63616.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "name": "Been By Now",
+   "artist": "Morgan Wallen",
+   "url": "https://music.apple.com/us/album/been-by-now/6792676858?i=6792676860",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/8d/52/9f8d52a0-b6d9-d038-327b-4fe58bedce67/26UMGIM94572.rgb.jpg/100x100bb.jpg"
   },
   {
    "name": "Nicole Kidman",
@@ -133,19 +139,13 @@
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/45/62/bb4562a3-45a2-539c-b557-a18ea060a476/26UMGIM63616.rgb.jpg/100x100bb.jpg"
   },
   {
-   "name": "Been By Now",
-   "artist": "Morgan Wallen",
-   "url": "https://music.apple.com/us/album/been-by-now/6792676858?i=6792676860",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/8d/52/9f8d52a0-b6d9-d038-327b-4fe58bedce67/26UMGIM94572.rgb.jpg/100x100bb.jpg"
-  },
-  {
    "name": "In A Minute",
    "artist": "Lil Baby",
    "url": "https://music.apple.com/us/album/in-a-minute/1648587138?i=1648587330",
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/9f/c0/99/9fc09958-180d-e66a-bbf7-9462289435f6/22UM1IM13098.rgb.jpg/100x100bb.jpg"
   }
  ],
- "songs_at": "2026-10-26T16:28+00:00",
+ "songs_at": "2026-10-26T21:20+00:00",
  "albums": [
   {
    "name": "Young Manhood and Other Donatable Organs",
@@ -178,16 +178,16 @@
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/b9/06/35b90629-a873-14f8-4789-ffc324960038/26UMGIM63614.rgb.jpg/100x100bb.jpg"
   },
   {
-   "name": "Don't Look Down",
-   "artist": "Rod Wave",
-   "url": "https://music.apple.com/us/album/dont-look-down/6781873059",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/16/67/4d/16674d50-a339-71bf-0aea-dc93b7dd8570/196874541357.jpg/100x100bb.jpg"
-  },
-  {
    "name": "Heavy Is The Crown",
    "artist": "Anderson .Paak & Cordae",
    "url": "https://music.apple.com/us/album/heavy-is-the-crown/6801692287",
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2b/81/23/2b8123af-f191-32ea-e856-fc4ad33599b6/199316732108_cover.jpg/100x100bb.jpg"
+  },
+  {
+   "name": "Don't Look Down",
+   "artist": "Rod Wave",
+   "url": "https://music.apple.com/us/album/dont-look-down/6781873059",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/16/67/4d/16674d50-a339-71bf-0aea-dc93b7dd8570/196874541357.jpg/100x100bb.jpg"
   },
   {
    "name": "The Life of a Showgirl: The Encore",
@@ -202,11 +202,11 @@
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/51/9f/5f519f49-44c1-6aeb-f289-5b14c677abb1/26UM1IM17017.rgb.jpg/100x100bb.jpg"
   },
   {
-   "name": "NO ME ARREPIENTO DE SENTIR TANTO",
-   "artist": "KAROL G",
-   "url": "https://music.apple.com/us/album/no-me-arrepiento-de-sentir-tanto/6796864741",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg"
+   "name": "The Great Divide: The Last Of The Bugs",
+   "artist": "Noah Kahan",
+   "url": "https://music.apple.com/us/album/the-great-divide-the-last-of-the-bugs/1894997820",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f9/aa/69/f9aa6992-40ca-a756-85ca-b27c48f7c720/26UMGIM02802.rgb.jpg/100x100bb.jpg"
   }
  ],
- "albums_at": "2026-10-26T16:28+00:00"
+ "albums_at": "2026-10-26T21:20+00:00"
 }
