@@ -2,6 +2,16 @@
   "_note": "Our own reporting. wire.py reads this every run and places these on the homepage and the right section page, above the wire cards. Add an article page in docs/ AND an entry here, or it appears on no index page. section is one of: celebrity, love, red-carpet, music, tv, movies. Nothing publishes without Terry's named sign-off.",
   "articles": [
     {
+      "title": "Ramayana Takes Over the Academy Museum",
+      "dek": "Ranbir Kapoor, Yash and Sai Pallavi brought Indian cinema's most anticipated epic to a Los Angeles red carpet on Tuesday night, and the fans outside chanted for the villain.",
+      "url": "ramayana-los-angeles-premiere-academy-museum.html",
+      "section": "red-carpet",
+      "tag": "Premiere",
+      "byline": "By Hollywood News Access",
+      "date": "2026-10-29",
+      "signed_off_by": "Terry Bryant, Senior Editor (directed Oct 29, 2026)"
+    },
+    {
       "title": "Freda Payne Stole VMAs Weekend",
       "dek": "Every camera in town was pointed at the Peacock Theater. But the night Hollywood can't stop raving about happened on Sunset, where an 84-year-old legend in gold lamé delivered a sold-out, standing-ovation, once-in-a-lifetime triumph.",
       "url": "freda-payne-catalina-hollywood-raves.html",
