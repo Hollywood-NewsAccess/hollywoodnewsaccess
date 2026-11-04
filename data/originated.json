@@ -2,6 +2,16 @@
   "_note": "Our own reporting. wire.py reads this every run and places these on the homepage and the right section page, above the wire cards. Add an article page in docs/ AND an entry here, or it appears on no index page. section is one of: celebrity, love, red-carpet, music, tv, movies. Nothing publishes without Terry's named sign-off.",
   "articles": [
     {
+      "title": "Hollywood Celebrates the Blue Wave",
+      "dek": "From Jimmy Kimmel's late-night victory lap to John Leguizamo's “this is redemption time,” the stars came out for the Democrats' midterm sweep, and the history-makers gave them plenty to cheer.",
+      "url": "hollywood-celebrates-democrats-midterm-sweep-2026.html",
+      "section": "celebrity",
+      "tag": "Election 2026",
+      "byline": "By Hollywood News Access",
+      "date": "2026-11-04",
+      "signed_off_by": "Terry Bryant, Senior Editor (directed Nov 4, 2026)"
+    },
+    {
       "title": "Ramayana Takes Over the Academy Museum",
       "dek": "Ranbir Kapoor, Yash and Sai Pallavi brought Indian cinema's most anticipated epic to a Los Angeles red carpet on Tuesday night, and the fans outside chanted for the villain.",
       "url": "ramayana-los-angeles-premiere-academy-museum.html",
