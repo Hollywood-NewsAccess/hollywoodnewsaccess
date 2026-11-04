@@ -1243,6 +1243,25 @@ def rfc822(datestr):
     return d.strftime("%a, %d %b %Y %H:%M:%S %z")
 
 
+
+def full_body(link, site):
+    """The story's full text for content:encoded. SmartNews, NewsBreak and
+    Flipboard only take feeds that carry the whole article, not a summary."""
+    path = os.path.join(DOCS, link.lstrip("/").split("#")[0])
+    try:
+        with open(path, encoding="utf-8") as f:
+            page = f.read()
+    except OSError:
+        return ""
+    m = re.search(r"<article[^>]*>(.*?)</article>", page, re.S)
+    if not m:
+        return ""
+    body = re.sub(r"<script\b.*?</script>", "", m.group(1), flags=re.S)
+    body = re.sub(r'(src|href)="(?!https?:|mailto:|tel:|#)([^"]+)"',
+                  lambda x: '%s="%s/%s"' % (x.group(1), site, x.group(2).lstrip("/")), body)
+    return body.strip().replace("]]>", "]]&gt;")
+
+
 def build_rss(ours, now_la):
     site = "https://hollywoodnewsaccess.com"
     items = []
@@ -1264,17 +1283,19 @@ def build_rss(ours, now_la):
             "<pubDate>%s</pubDate>"
             "<dc:creator>%s</dc:creator>"
             "<description>%s</description>"
+            "<content:encoded><![CDATA[%s]]></content:encoded>"
             "%s"
             "</item>"
             % (esc(a.get("title", "")), esc(link), esc(link),
                rfc822(a.get("date", "")),
                esc(a.get("byline", "Hollywood News Access")),
-               esc(a.get("dek", "")), enclosure))
+               esc(a.get("dek", "")), full_body(a.get("link", ""), site), enclosure))
 
     return ("""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
      xmlns:media="http://search.yahoo.com/mrss/"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
      xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>Hollywood News Access</title>
