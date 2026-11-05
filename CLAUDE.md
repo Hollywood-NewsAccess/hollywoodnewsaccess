@@ -77,6 +77,8 @@ Priority build. Core infrastructure, same weight as the newsroom. A living inter
 
 ## OPERATING STANDARDS
 
+MONETIZE EVERYTHING (Terry, Nov 5 2026, standing rule): every project, story, event, partnership and post must answer "what is our return?" Look for the money at expert level: ad revenue, YouTube and Facebook payouts, TikTok and live-stream gifts, affiliate and Amazon influencer income, sponsor packages, content rights, licensing, influencer management fees, events and conferences. Never leave a deal empty-handed: every free product, appearance or coverage we give gets something measurable back (fee, content rights, affiliate code, introductions, data, a case study). Flag the monetization angle in every plan. Disclose paid relationships; label sponsored content.
+
 Images: licensed wire, studio-supplied press assets with written permission, or original photography only. Every image records its license source. No unlicensed sourcing.
 
 Paid and sponsored content carries a visible label. This is an indexing requirement, not an editorial preference.
