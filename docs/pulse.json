@@ -1,6 +1,22 @@
 {
  "trends": [
   {
+   "term": "love is blind",
+   "traffic": "1000+",
+   "headline": "9 ‘Love Is Blind’ Couples Who Got Engaged Off-Screen",
+   "url": "https://people.com/love-is-blind-couples-who-got-engaged-off-screen-12196447",
+   "source": "People.com",
+   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu8p6cKJF-nmqwQXCCRr7QuiQ49PAvEgN3fthC58DHKonAO4j7b0tmQtTw5uM"
+  },
+  {
+   "term": "jazz vs pelicans",
+   "traffic": "2000+",
+   "headline": "Utah Jazz vs New Orleans Pelicans: Preview, Start Time, How to Watch",
+   "url": "https://sports.yahoo.com/articles/utah-jazz-vs-orleans-pelicans-215838156.html",
+   "source": "Yahoo Sports",
+   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW-tmtYDUMJdJEYGdpdkCmFspCV3lgbzXAe6rw3ccLBt2mFToqsjtUzx0g_PQ"
+  },
+  {
    "term": "auburn basketball",
    "traffic": "500+",
    "headline": "3 questions for Auburn basketball ahead of its season opener vs. Southeastern Louisiana",
@@ -9,40 +25,32 @@
    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJG-qOz5GXMQIcbtcA6CGTcPJ9wJidZfadtrbPGwAlBXM5YdsBbiyU26yJIaI"
   },
   {
-   "term": "jazz vs pelicans",
-   "traffic": "500+",
-   "headline": "Utah Jazz vs New Orleans Pelicans: Preview, Start Time, How to Watch",
-   "url": "https://sports.yahoo.com/articles/utah-jazz-vs-orleans-pelicans-215838156.html",
-   "source": "Yahoo Sports",
-   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW-tmtYDUMJdJEYGdpdkCmFspCV3lgbzXAe6rw3ccLBt2mFToqsjtUzx0g_PQ"
+   "term": "pacers vs grizzlies",
+   "traffic": "2000+",
+   "headline": "Pacers at Grizzlies Preview: Wednesday, November 4 at FedEx Forum",
+   "url": "https://pacers.com/news/preview-pacers-grizzlies-261104",
+   "source": "NBA.com",
+   "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ7pxyXLJxXjLNWf93amGh26V3HnCv5_KrYRya6nJ_rY8bPKaRztGsuCGcuXGM"
   },
   {
-   "term": "stardew valley 1.7",
+   "term": "petróleo",
    "traffic": "500+",
-   "headline": "Stardew's 2027 Update Will Be The Game's 'Largest Update Ever'",
-   "url": "https://kotaku.com/stardew-valleys-1-7-update-finally-has-a-release-window-and-its-set-to-be-the-games-largest-update-ever-2000753367",
-   "source": "Kotaku",
-   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvDvinUQhqf5AuRO0Cd7DHOrNmpmXCw8DGs3QpDY_F146tIx1JNnCKLJB7LwU"
+   "headline": "Brent cae bajo US$100 por primera vez desde octubre tras victoria demócrata en EE.UU.",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-04/brent-cae-bajo-us-100-tras-victoria-democrata-en-ee-uu",
+   "source": "Bloomberg.com",
+   "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTy9rRmGCgi-ZMpWIOP9bsmh5bAPHdasK6cB5s2YLCojTCeVM4oYPjqbmNa3UI"
   },
   {
    "term": "cavaliers vs thunder",
-   "traffic": "1000+",
+   "traffic": "5000+",
    "headline": "Short-handed Thunder bounce back, hand Cavaliers first loss at home",
    "url": "https://www.espn.com/nba/story/_/id/50364171/thunder-bounce-back-hand-cavaliers-first-loss-home",
    "source": "ESPN",
    "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcThvnpmNMDbRiNXiCziXyhwScNfPYHztqC3-LxMQTxGW_JQ5Yviy5DzmsHK-j8"
   },
   {
-   "term": "chuck grassley",
-   "traffic": "10000+",
-   "headline": "What’s next for Iowa Democrats after their biggest election night in years?",
-   "url": "https://www.iowapublicradio.org/political-news/2026-11-04/iowa-democrats-biggest-election-night-win-governor-senate-house-sand-turek-hart",
-   "source": "Iowa Public Radio",
-   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQLCiC-X8K-VG04mLuyl-ssd7sm0e3a3jY9kM0Ha4sN3a6Bq_9359AimQuV_lQ"
-  },
-  {
    "term": "botafogo vs atlético mineiro",
-   "traffic": "500+",
+   "traffic": "1000+",
    "headline": "Botafogo x Atlético-MG: onde assistir ao vivo, horário e escalações",
    "url": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/noticia/2026/11/04/botafogo-x-atletico-mg-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml",
    "source": "ge",
@@ -71,18 +79,10 @@
    "url": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/noticia/2026/11/04/sao-paulo-x-corinthians-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml",
    "source": "ge",
    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTaNGEYjzCAygmaS1YLeXIwbR29M1hP1Cw-1Q804ee7FoA1y6Kd4YYx6id_3PA"
-  },
-  {
-   "term": "blackhawks vs panthers",
-   "traffic": "2000+",
-   "headline": "Gameday 16: Florida Panthers vs Chicago Blackhawks",
-   "url": "https://www.litterboxcats.com/florida-panthers-vs-chicago-blackhawks-gameday-16-2026-27-nhl-season/",
-   "source": "Litter Box Cats",
-   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQNt-HwlkUieL4BQhP5tBZnTUw2xsp692rUm6Xq5aYnsJoXvKNR3b-3Tq7voU8"
   }
  ],
  "trends_ent": 3,
- "trends_at": "2026-11-05T00:19+00:00",
+ "trends_at": "2026-11-05T00:24+00:00",
  "songs": [
   {
    "name": "Choosin' Texas",
@@ -145,7 +145,7 @@
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/9f/c0/99/9fc09958-180d-e66a-bbf7-9462289435f6/22UM1IM13098.rgb.jpg/100x100bb.jpg"
   }
  ],
- "songs_at": "2026-11-05T00:19+00:00",
+ "songs_at": "2026-11-05T00:24+00:00",
  "albums": [
   {
    "name": "BETTER OVER TIME",
@@ -208,5 +208,5 @@
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1e/ef/26/1eef2600-29f4-5423-3052-26874afd2947/25UMGIM46050.rgb.jpg/100x100bb.jpg"
   }
  ],
- "albums_at": "2026-11-05T00:19+00:00"
+ "albums_at": "2026-11-05T00:24+00:00"
 }
