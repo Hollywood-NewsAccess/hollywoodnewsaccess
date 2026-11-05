@@ -1,6 +1,22 @@
 {
  "trends": [
   {
+   "term": "auburn basketball",
+   "traffic": "500+",
+   "headline": "3 questions for Auburn basketball ahead of its season opener vs. Southeastern Louisiana",
+   "url": "https://www.al.com/auburnbasketball/2026/11/3-questions-for-auburn-basketball-ahead-of-its-season-opener-vs-southeastern-louisiana.html",
+   "source": "AL.com",
+   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJG-qOz5GXMQIcbtcA6CGTcPJ9wJidZfadtrbPGwAlBXM5YdsBbiyU26yJIaI"
+  },
+  {
+   "term": "jazz vs pelicans",
+   "traffic": "500+",
+   "headline": "Utah Jazz vs New Orleans Pelicans: Preview, Start Time, How to Watch",
+   "url": "https://sports.yahoo.com/articles/utah-jazz-vs-orleans-pelicans-215838156.html",
+   "source": "Yahoo Sports",
+   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW-tmtYDUMJdJEYGdpdkCmFspCV3lgbzXAe6rw3ccLBt2mFToqsjtUzx0g_PQ"
+  },
+  {
    "term": "stardew valley 1.7",
    "traffic": "500+",
    "headline": "Stardew's 2027 Update Will Be The Game's 'Largest Update Ever'",
@@ -9,16 +25,32 @@
    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvDvinUQhqf5AuRO0Cd7DHOrNmpmXCw8DGs3QpDY_F146tIx1JNnCKLJB7LwU"
   },
   {
-   "term": "central mi vs eastern mi",
-   "traffic": "2000+",
-   "headline": "Eastern Michigan vs. Central Michigan odds, picks, prediction, start time: College football betting preview",
-   "url": "https://www.cbssports.com/betting/news/eastern-michigan-vs-central-michigan-odds-picks-prediction-start-time-college-football-betting-preview/",
-   "source": "CBS Sports",
-   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRu3MRW8GzgK6fLMmC0Bq9GtkDVnBwjwQXfvlaaxm21TKzsJxClk9WIARfzhK4"
+   "term": "cavaliers vs thunder",
+   "traffic": "1000+",
+   "headline": "Short-handed Thunder bounce back, hand Cavaliers first loss at home",
+   "url": "https://www.espn.com/nba/story/_/id/50364171/thunder-bounce-back-hand-cavaliers-first-loss-home",
+   "source": "ESPN",
+   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcThvnpmNMDbRiNXiCziXyhwScNfPYHztqC3-LxMQTxGW_JQ5Yviy5DzmsHK-j8"
+  },
+  {
+   "term": "chuck grassley",
+   "traffic": "10000+",
+   "headline": "What’s next for Iowa Democrats after their biggest election night in years?",
+   "url": "https://www.iowapublicradio.org/political-news/2026-11-04/iowa-democrats-biggest-election-night-win-governor-senate-house-sand-turek-hart",
+   "source": "Iowa Public Radio",
+   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQLCiC-X8K-VG04mLuyl-ssd7sm0e3a3jY9kM0Ha4sN3a6Bq_9359AimQuV_lQ"
+  },
+  {
+   "term": "botafogo vs atlético mineiro",
+   "traffic": "500+",
+   "headline": "Botafogo x Atlético-MG: onde assistir ao vivo, horário e escalações",
+   "url": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/noticia/2026/11/04/botafogo-x-atletico-mg-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml",
+   "source": "ge",
+   "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcScpXmiAFxea9kZfh_JX1-70UCuW_jzT137iaFJnIVva2t3hzV0RwJadbTT0G4"
   },
   {
    "term": "hornets vs nets",
-   "traffic": "2000+",
+   "traffic": "5000+",
    "headline": "Nets vs. Hornets: Can Brooklyn finally give the home crowd something to cheer about?",
    "url": "https://www.netsdaily.com/nets-game-previews/115707/nets-hornets-preview-prediction-game-info-how-to-watch",
    "source": "NetsDaily",
@@ -47,42 +79,10 @@
    "url": "https://www.litterboxcats.com/florida-panthers-vs-chicago-blackhawks-gameday-16-2026-27-nhl-season/",
    "source": "Litter Box Cats",
    "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQNt-HwlkUieL4BQhP5tBZnTUw2xsp692rUm6Xq5aYnsJoXvKNR3b-3Tq7voU8"
-  },
-  {
-   "term": "senators vs sabres",
-   "traffic": "1000+",
-   "headline": "NHL On Tap: Batherson looks to extend streak when Senators visit Sabres",
-   "url": "https://www.nhl.com/news/nhl-on-tap-news-and-notes-november-4-2026",
-   "source": "NHL.com",
-   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQDOgK_28pq020TYCQkRra_0HlcfFxDYidlMk2YL3PdtQEXjvbhq3ftUZYRsDQ"
-  },
-  {
-   "term": "bruce springsteen",
-   "traffic": "500+",
-   "headline": "Bruce Springsteen sparks fan fury after backing Abdul El-Sayed in Michigan Senate race",
-   "url": "https://www.foxnews.com/entertainment/bruce-springsteen-sparks-fan-fury-after-backing-abdul-el-sayed-michigan-senate-race",
-   "source": "Fox News",
-   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrQNgPTblvpLK2XKdv4aFTD2gB0Kw_1XpjfJkZbR4sgI2r0BXONo40KFsOFEc"
-  },
-  {
-   "term": "molly miller",
-   "traffic": "500+",
-   "headline": "Molly Miller is back for her second year at Arizona State, turns heads during home opener",
-   "url": "https://www.foxnews.com/outkick-sports/molly-miller-back-second-year-arizona-state-turns-heads-home-opener",
-   "source": "Fox News",
-   "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ81lSar4T8OThInOzqysNwHRH21XszOMCSy7BYLyZhkIi30KTAxdFyZCP_6qY"
-  },
-  {
-   "term": "diego pavia",
-   "traffic": "2000+",
-   "headline": "Agent's Take: What's next between Lamar Jackson, Ravens after yet another injury",
-   "url": "https://www.cbssports.com/nfl/news/agents-take-whats-next-lamar-jackson-ravens-contract/",
-   "source": "CBS Sports",
-   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdiEf1bB9z6yVmFXxUOEmBMbtHa48Z8jXBc_GH-rkzkcY-zshhqgig01Y69rc"
   }
  ],
- "trends_ent": 2,
- "trends_at": "2026-11-05T00:09+00:00",
+ "trends_ent": 3,
+ "trends_at": "2026-11-05T00:19+00:00",
  "songs": [
   {
    "name": "Choosin' Texas",
@@ -145,7 +145,7 @@
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/9f/c0/99/9fc09958-180d-e66a-bbf7-9462289435f6/22UM1IM13098.rgb.jpg/100x100bb.jpg"
   }
  ],
- "songs_at": "2026-11-05T00:09+00:00",
+ "songs_at": "2026-11-05T00:19+00:00",
  "albums": [
   {
    "name": "BETTER OVER TIME",
@@ -208,5 +208,5 @@
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1e/ef/26/1eef2600-29f4-5423-3052-26874afd2947/25UMGIM46050.rgb.jpg/100x100bb.jpg"
   }
  ],
- "albums_at": "2026-11-05T00:09+00:00"
+ "albums_at": "2026-11-05T00:19+00:00"
 }
