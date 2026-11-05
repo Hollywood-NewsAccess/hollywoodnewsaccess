@@ -826,6 +826,7 @@ def footer_html(now_utc, feed_ok, feed_total):
 <a href="pressroom.html#advertise">Advertise</a>
 <a href="pressroom.html#standards">Standards &amp; Corrections</a>
 <a href="https://www.instagram.com/hollywoodnewsaccess/" target="_blank" rel="noopener me">Instagram</a>
+<a href="https://www.facebook.com/Hollywoodnewsaccess" target="_blank" rel="noopener me">Facebook</a>
 </nav>
 <div>&copy; 2026 Hollywood News Access. All rights reserved. Los Angeles, California.</div>
 <div class="machine">Headline cards credited to another outlet are that outlet's reporting, shown
@@ -898,7 +899,7 @@ that did the reporting; we do not republish their article text. Spotted an error
 </div></section>""")
     parts.append(footer_html(now_utc, feed_ok, feed_total))
     parts.append("""<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"NewsMediaOrganization","name":"Hollywood News Access","url":"https://hollywoodnewsaccess.com/","description":"Celebrity news, red carpets, music, TV and movies from Hollywood.","address":{"@type":"PostalAddress","addressLocality":"Los Angeles","addressRegion":"CA","addressCountry":"US"},"publishingPrinciples":"https://hollywoodnewsaccess.com/pressroom.html#standards","correctionsPolicy":"https://hollywoodnewsaccess.com/pressroom.html#standards","sameAs":["https://www.instagram.com/hollywoodnewsaccess/"]}
+{"@context":"https://schema.org","@type":"NewsMediaOrganization","name":"Hollywood News Access","url":"https://hollywoodnewsaccess.com/","description":"Celebrity news, red carpets, music, TV and movies from Hollywood.","address":{"@type":"PostalAddress","addressLocality":"Los Angeles","addressRegion":"CA","addressCountry":"US"},"publishingPrinciples":"https://hollywoodnewsaccess.com/pressroom.html#standards","correctionsPolicy":"https://hollywoodnewsaccess.com/pressroom.html#standards","sameAs":["https://www.instagram.com/hollywoodnewsaccess/","https://www.facebook.com/Hollywoodnewsaccess"]}
 </script>""")
     parts.append("</body>\n</html>")
     return "\n".join(p for p in parts if p) + "\n"
