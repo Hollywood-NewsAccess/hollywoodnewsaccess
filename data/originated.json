@@ -1,38 +1,52 @@
 {
-  "_note": "Our own reporting. wire.py reads this every run and places these on the homepage and the right section page, above the wire cards. Add an article page in docs/ AND an entry here, or it appears on no index page. section is one of: celebrity, love, red-carpet, music, tv, movies. Nothing publishes without Terry's named sign-off.",
-  "articles": [
-    {
-      "title": "Hollywood Celebrates the Blue Wave",
-      "dek": "From Jimmy Kimmel's late-night victory lap to John Leguizamo's “this is redemption time,” the stars came out for the Democrats' midterm sweep, and the history-makers gave them plenty to cheer.",
-      "url": "hollywood-celebrates-democrats-midterm-sweep-2026.html",
-      "section": "celebrity",
-      "tag": "Election 2026",
-      "byline": "By Hollywood News Access",
-      "date": "2026-11-04",
-      "signed_off_by": "Terry Bryant, Senior Editor (directed Nov 4, 2026)"
-    },
-    {
-      "title": "Ramayana Takes Over the Academy Museum",
-      "dek": "Ranbir Kapoor, Yash and Sai Pallavi brought Indian cinema's most anticipated epic to a Los Angeles red carpet on Tuesday night, and the fans outside chanted for the villain.",
-      "url": "ramayana-los-angeles-premiere-academy-museum.html",
-      "section": "red-carpet",
-      "tag": "Premiere",
-      "byline": "By Hollywood News Access",
-      "date": "2026-10-29",
-      "signed_off_by": "Terry Bryant, Senior Editor (directed Oct 29, 2026)"
-    },
-    {
-      "title": "Freda Payne Stole VMAs Weekend",
-      "dek": "Every camera in town was pointed at the Peacock Theater. But the night Hollywood can't stop raving about happened on Sunset, where an 84-year-old legend in gold lamé delivered a sold-out, standing-ovation, once-in-a-lifetime triumph.",
-      "url": "freda-payne-catalina-hollywood-raves.html",
-      "section": "music",
-      "tag": "Hollywood is raving",
-      "byline": "By Hollywood News Access",
-      "date": "2026-10-05",
-      "image": "img/freda-payne-gold-catalina.jpg",
-      "photo_author": "Terry Bryant",
-      "photo_licence": "Original photography, used with the photographer's permission",
-      "image_focus": "50% 18%"
-    }
-  ]
+ "_note": "Our own reporting. wire.py reads this every run and places these on the homepage and the right section page, above the wire cards. Add an article page in docs/ AND an entry here, or it appears on no index page. section is one of: celebrity, love, red-carpet, music, tv, movies. Nothing publishes without Terry's named sign-off.",
+ "articles": [
+  {
+   "title": "Richard T. Jones Hosts Hollywood's Most Global Red Carpet Tonight",
+   "dek": "DeVon Franklin, Oscar winner Nick Vallelonga and Grammy-nominated producer Theron “Neff-U” Feemster lead filmmakers from 30 nations into the Writers Guild Theater for the 2026 Global Film Awards. Who are you hoping to see on the carpet?",
+   "url": "agff-2026-global-film-awards-red-carpet-tonight.html",
+   "section": "red-carpet",
+   "tag": "Tonight",
+   "byline": "By Hollywood News Access",
+   "date": "2026-11-05",
+   "image": "img/agff-2026-feemster-flyer.jpg",
+   "photo_author": "Authentic Global Film Festival",
+   "photo_licence": "Festival-supplied promotional flyer, released for press use",
+   "image_focus": "50% 25%",
+   "signed_off_by": "Terry Bryant, Senior Editor (directed Nov 5, 2026)"
+  },
+  {
+   "title": "Hollywood Celebrates the Blue Wave",
+   "dek": "From Jimmy Kimmel's late-night victory lap to John Leguizamo's “this is redemption time,” the stars came out for the Democrats' midterm sweep, and the history-makers gave them plenty to cheer.",
+   "url": "hollywood-celebrates-democrats-midterm-sweep-2026.html",
+   "section": "celebrity",
+   "tag": "Election 2026",
+   "byline": "By Hollywood News Access",
+   "date": "2026-11-04",
+   "signed_off_by": "Terry Bryant, Senior Editor (directed Nov 4, 2026)"
+  },
+  {
+   "title": "Ramayana Takes Over the Academy Museum",
+   "dek": "Ranbir Kapoor, Yash and Sai Pallavi brought Indian cinema's most anticipated epic to a Los Angeles red carpet on Tuesday night, and the fans outside chanted for the villain.",
+   "url": "ramayana-los-angeles-premiere-academy-museum.html",
+   "section": "red-carpet",
+   "tag": "Premiere",
+   "byline": "By Hollywood News Access",
+   "date": "2026-10-29",
+   "signed_off_by": "Terry Bryant, Senior Editor (directed Oct 29, 2026)"
+  },
+  {
+   "title": "Freda Payne Stole VMAs Weekend",
+   "dek": "Every camera in town was pointed at the Peacock Theater. But the night Hollywood can't stop raving about happened on Sunset, where an 84-year-old legend in gold lamé delivered a sold-out, standing-ovation, once-in-a-lifetime triumph.",
+   "url": "freda-payne-catalina-hollywood-raves.html",
+   "section": "music",
+   "tag": "Hollywood is raving",
+   "byline": "By Hollywood News Access",
+   "date": "2026-10-05",
+   "image": "img/freda-payne-gold-catalina.jpg",
+   "photo_author": "Terry Bryant",
+   "photo_licence": "Original photography, used with the photographer's permission",
+   "image_focus": "50% 18%"
+  }
+ ]
 }
