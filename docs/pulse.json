@@ -1,88 +1,88 @@
 {
  "trends": [
   {
-   "term": "oso ighodaro",
-   "traffic": "500+",
-   "headline": "Phoenix Suns make change in starting lineup after 1-5 start",
-   "url": "https://www.azcentral.com/story/sports/nba/suns/2026/11/05/phoenix-suns-make-change-in-starting-lineup-after-slow-start/92634825007/",
-   "source": "azcentral.com and The Arizona Republic",
-   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOt6tw5i4fQ1RKU8rbvZgwQ2u-l5ZsHLoDadvGgu7G805sSjDNpllBwdh_j6Q"
-  },
-  {
-   "term": "texas tech basketball",
-   "traffic": "500+",
-   "headline": "How to watch Bethune-Cookman vs. Texas Tech men’s basketball: TV channel and streaming options for November 5",
-   "url": "https://www.nytimes.com/athletic/7756792/2026/11/05/bethune-cookman-vs-texas-tech-stream-how-to-watch-nov-5/",
-   "source": "The New York Times",
-   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQnXFOe4JNzHqMfNURfEOk6m4AJTiqZ5nz1A5s6Ec4Ty1Btl-ey5gGi-qIgODA"
-  },
-  {
-   "term": "the walking dead",
-   "traffic": "1000+",
-   "headline": "The Walking Dead franchise suffers unexpected loss ahead of 2027 return",
-   "url": "https://undeadwalking.com/the-walking-dead-franchise-suffers-loss-ahead-2027-twd-return",
-   "source": "Undead Walking",
-   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQHABBBR1EAliDxmDdayHW_QkVPZWomu00PyBh6wocxkhxXIgQaGY_UxCnOOww"
-  },
-  {
-   "term": "montreal canadiens",
-   "traffic": "500+",
-   "headline": "Rocket’s Mittelstadt named AHL Rookie of the Month for October",
-   "url": "https://theahl.com/news/mittelstadt-ahl-rookie-month",
-   "source": "The American Hockey League",
-   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFqkaHgn8HtOdOYIIURDoytXtpw2GjItw_WkpE2wBnEC0ncevXsJHjBcdcjIA"
-  },
-  {
-   "term": "dan doornink",
-   "traffic": "500+",
-   "headline": "Ex-NFL running back, Seahawks legend dies at 70",
-   "url": "https://www.pennlive.com/sports/2026/11/ex-nfl-running-back-seahawks-legend-dies-at-70.html",
-   "source": "PennLive.com",
-   "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQE21nUp1yp7dGGs9ZmVz3IkMiSnsaQUrpQz84NTxVdQqwXtbFLMEvnu87I7Ng"
-  },
-  {
-   "term": "lauren boebert congressional district",
-   "traffic": "1000+",
-   "headline": "Colorado House District 4 Midterm Election 2026: Live Results",
-   "url": "https://www.nbcnews.com/politics/2026-elections/colorado-us-house-district-4-results",
-   "source": "NBC News",
-   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRA-84ftLC9S4MUfoDmDtErRixiuH6u1k-9I8pZCm8Vn8ZSYcFWriCdaBWwlIs"
-  },
-  {
-   "term": "desmond bane",
-   "traffic": "1000+",
-   "headline": "3 Ways the Magic Can Improve Their Struggling Defense",
-   "url": "https://sports.yahoo.com/articles/3-ways-magic-improve-struggling-170006128.html",
+   "term": "joe scarborough",
+   "traffic": "100+",
+   "headline": "Former ESPN Star Katie Nolan Accuses Pat McAfee Of 'Irresponsible' Behavior",
+   "url": "https://sports.yahoo.com/articles/former-espn-star-katie-nolan-001420974.html",
    "source": "Yahoo Sports",
-   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcScItxnU83jV0BM0_wY2a7eVeSLFA-BijgA0Ac5g3k6lvaDD3bKmtqvy6uK4RY"
+   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSWdQPv0cU6_m6O-UFObHnUha0_TpVZQpCWQs-J8c54HbFd-yIf4A8kJd8QA2U"
   },
   {
-   "term": "orlando magic vs phoenix suns match player stats",
+   "term": "nyc weather",
+   "traffic": "2000+",
+   "headline": "Our dry stretch is about to end. How much rain can the NYC area expect Thursday-Friday?",
+   "url": "https://www.nbcnewyork.com/weather/weather-stories/how-much-rain-nyc-expect-thursday-friday/6567761/",
+   "source": "NBC New York",
+   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSEgWl_ohf6TMcXRLbrv9dyWZYgQqhVQFnrA6bvBh2_5OqlgIWL96BMaehgd3w"
+  },
+  {
+   "term": "premarket",
+   "traffic": "100+",
+   "headline": "After-Hours Movers: NET, TEAM, FIVN, ABNB, DKNG, AFRM, LRCX, MCHP, AAOI, IREN, AXON",
+   "url": "https://www.investing.com/news/stock-market-news/afterhours-movers-net-team-fivn-abnb-dkng-afrm-lrcx-mchp-aaoi-iren-axon-432SI-5005795",
+   "source": "Investing.com",
+   "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRdOh3A2Ub-r2ezWvI41SP_NYEO8TTpxcS18uf2p9cZ1yWxu1cjSk428LFBF08"
+  },
+  {
+   "term": "chuck grassley",
+   "traffic": "100+",
+   "headline": "Grassley denies rumors he’ll resign in the lame-duck session",
+   "url": "https://www.politico.com/live-updates/2026/11/05/congress/grassley-sticking-around-chief-says-01152433",
+   "source": "Politico",
+   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSAGm4-pELtZYDCF3mucWw2WWqceVUjoTFiHrYjU2YfaXR6l4jhwtcmY7gbAPI"
+  },
+  {
+   "term": "clima",
    "traffic": "20000+",
-   "headline": "Dallas Mavericks vs San Antonio Spurs Nov 4, 2026 Box Scores",
-   "url": "https://www.nba.com/game/dal-vs-sas-0022600184/box-score",
-   "source": "NBA.com",
-   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTgZNbb1H6Mr1cuCA9xq2hJcgKCOflgvIbmR0Aw52vIkAvKtWXDNVIoEYHO4hc"
+   "headline": "Clima en Buenos Aires hoy: pronóstico del tiempo en vivo de este Viernes, 6 de noviembre",
+   "url": "https://www.eldestapeweb.com/sociedad/clima-en-buenos-aires-hoy-pronostico-del-tiempo-en-vivo-de-este-viernes-6-de-noviembre-20261163026",
+   "source": "El Destape",
+   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTFn2GajLwUu2PzjG1akBSykEBsA4zQHxSpQ-vH7-GoPX5daE8FAe67ux5O4dQ"
   },
   {
-   "term": "tulane basketball",
-   "traffic": "500+",
-   "headline": "NO.tujacksonstate.110626-.039.jpg",
-   "url": "https://www.nola.com/no-tujacksonstate-110626--039-jpg/image_815128f7-2dda-596a-a285-b5003eaa7673.html",
-   "source": "NOLA.com",
-   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSSxO0PPUXi68oi4e_x3q60kLmB1KPbbGv1YZRnWUeLqcXcZs8om5YQGBP2l9M"
-  },
-  {
-   "term": "terrell owens",
+   "term": "car accident lawyer",
    "traffic": "200+",
-   "headline": "New Terrell Owens documentary follows the former Eagle from ‘socially awkward’ to driveway sit-ups",
-   "url": "https://www.inquirer.com/eagles/terrell-owens-to-documentary-amazon-prime-nfl-20261105.html",
-   "source": "Inquirer.com",
-   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQADTlbXe8MquYRuecTNtUidUJD1oG3X5W9kD3BKIYkMiILJnBa_lE5FmUbYQk"
+   "headline": "Waterbury Car Accident Attorney Dan Petroskey Explains Uber and Lyft Accident Claims in Connecticut",
+   "url": "https://www.usatoday.com/press-release/story/55881/waterbury-car-accident-attorney-dan-petroskey-explains-uber-and-lyft-accident-claims-in-connecticut/",
+   "source": "USA Today",
+   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpDagLLLSazzXIV0BCr1b9knMVC5w303wWY4wiHjYRsEhgTWH_uardnd3Vy8U"
+  },
+  {
+   "term": "edc orlando 2026",
+   "traffic": "100+",
+   "headline": "EDC Orlando: Road closures, parking and travel tips for festivalgoers this weekend",
+   "url": "https://www.clickorlando.com/news/local/2026/11/05/edc-orlando-road-closures-parking-and-travel-tips-for-festivalgoers-this-weekend/",
+   "source": "WKMG",
+   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRYlpYNSbHAgSNmQv0GlX-ZjuFmF_9S2tl20higvns2H-2uyVEO5LCIviCeFEM"
+  },
+  {
+   "term": "price of oil",
+   "traffic": "100+",
+   "headline": "Oil set for sharp weekly drop after US midterms raise hopes of more Mideast crude exports",
+   "url": "https://www.reuters.com/business/energy/oil-set-sharp-weekly-drop-middle-east-supply-concerns-provide-floor-2026-11-06/",
+   "source": "Reuters",
+   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1xGyvA-OXhL6XfayILie6cN4k30szxzEIxiSgmCqUwwFff2Xh3_oFg08cUOg"
+  },
+  {
+   "term": "flash flood warning",
+   "traffic": "5000+",
+   "headline": "Flash flooding along Ocoee River forces evacuations as river reaches record high levels",
+   "url": "https://www.timesfreepress.com/news/2026/nov/05/flash-flooding-along-the-ocoee-river-forces-evacuations/",
+   "source": "Chattanooga Times Free Press",
+   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRnk5nSvSzJ0Z6DmVWPCiduq4o8ym1-a1JJfiyBSXcZxE2QBF7HzImZR1VZ4HM"
+  },
+  {
+   "term": "погода",
+   "traffic": "200+",
+   "headline": "В Казахстане потеплеет до +27, но придут и сильные дожди",
+   "url": "https://tengrinews.kz/kazakhstan_news/v-kazahstane-potepleet-do-27-no-pridut-i-silnyie-dojdi-612505/",
+   "source": "TengriNews",
+   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR7YSqFYZKW9SHuF3JGhPyzkzg8RdNw1U6O2W6d52lpwJ1TkQ43xkZf5XhcJ5o"
   }
  ],
- "trends_ent": 2,
- "trends_at": "2026-11-06T03:08+00:00",
+ "trends_ent": 1,
+ "trends_at": "2026-11-06T11:48+00:00",
  "songs": [
   {
    "name": "Choosin' Texas",
@@ -160,6 +160,12 @@
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/45/62/bb4562a3-45a2-539c-b557-a18ea060a476/26UMGIM63616.rgb.jpg/100x100bb.jpg"
   },
   {
+   "name": "FRESH",
+   "artist": "Lil Baby",
+   "url": "https://music.apple.com/us/album/fresh/6823820064",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a2/df/3c/a2df3c58-fbda-cc45-b349-bad967c1e7a8/26UM1IM31430.rgb.jpg/100x100bb.jpg"
+  },
+  {
    "name": "you seem pretty sad for a girl so in love",
    "artist": "Olivia Rodrigo",
    "url": "https://music.apple.com/us/album/you-seem-pretty-sad-for-a-girl-so-in-love/1889992111",
@@ -190,23 +196,17 @@
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f9/aa/69/f9aa6992-40ca-a756-85ca-b27c48f7c720/26UMGIM02802.rgb.jpg/100x100bb.jpg"
   },
   {
+   "name": "NO ME ARREPIENTO DE SENTIR TANTO",
+   "artist": "KAROL G",
+   "url": "https://music.apple.com/us/album/no-me-arrepiento-de-sentir-tanto/6796864741",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg"
+  },
+  {
    "name": "The Life of a Showgirl: The Encore",
    "artist": "Taylor Swift",
    "url": "https://music.apple.com/us/album/the-life-of-a-showgirl-the-encore/6814997249",
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a0/dd/fd/a0ddfd72-ee9e-f046-6466-a5dbefc696fa/26UM1IM21436.rgb.jpg/100x100bb.jpg"
-  },
-  {
-   "name": "Westside Whimsy",
-   "artist": "Jhené Aiko",
-   "url": "https://music.apple.com/us/album/westside-whimsy/6810715695",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/51/9f/5f519f49-44c1-6aeb-f289-5b14c677abb1/26UM1IM17017.rgb.jpg/100x100bb.jpg"
-  },
-  {
-   "name": "Brown Noise: Loops for Relaxation, Deep Sleep, Meditation, And Babies",
-   "artist": "SleepTherapy",
-   "url": "https://music.apple.com/us/album/brown-noise-loops-for-relaxation-deep-sleep-meditation/1417709876",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/21/1e/77/211e77f4-beed-c073-526c-c182bbed597f/859727751685_cover.jpg/100x100bb.jpg"
   }
  ],
- "albums_at": "2026-11-05T23:55+00:00"
+ "albums_at": "2026-11-06T11:48+00:00"
 }
