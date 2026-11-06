@@ -1,88 +1,88 @@
 {
  "trends": [
   {
-   "term": "joe scarborough",
-   "traffic": "100+",
-   "headline": "Former ESPN Star Katie Nolan Accuses Pat McAfee Of 'Irresponsible' Behavior",
-   "url": "https://sports.yahoo.com/articles/former-espn-star-katie-nolan-001420974.html",
-   "source": "Yahoo Sports",
-   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSWdQPv0cU6_m6O-UFObHnUha0_TpVZQpCWQs-J8c54HbFd-yIf4A8kJd8QA2U"
+   "term": "sebastián lelio",
+   "traffic": "200+",
+   "headline": "Muere a los 52 años el director chileno Sebastián Lelio, ganador del Oscar por ‘Una mujer fantástica’",
+   "url": "https://elpais.com/cultura/cine/2026-11-06/muere-a-los-52-anos-el-director-chileno-sebastian-lelio-ganador-del-oscar-por-una-mujer-fantastica.html",
+   "source": "EL PAÍS",
+   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRvT8WiPclBCOvbwKhgfC66mPRCDEROZYwWhUdX27CC1uY1fZKoEoEwKOfvU_4"
   },
   {
-   "term": "nyc weather",
+   "term": "paige bueckers",
    "traffic": "2000+",
-   "headline": "Our dry stretch is about to end. How much rain can the NYC area expect Thursday-Friday?",
-   "url": "https://www.nbcnewyork.com/weather/weather-stories/how-much-rain-nyc-expect-thursday-friday/6567761/",
-   "source": "NBC New York",
-   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSEgWl_ohf6TMcXRLbrv9dyWZYgQqhVQFnrA6bvBh2_5OqlgIWL96BMaehgd3w"
+   "headline": "Paige Bueckers and Azzi Fudd Confirm They Broke Up Over a Year Ago",
+   "url": "https://people.com/paige-bueckers-azzi-fudd-confirm-they-broke-up-over-a-year-ago-12240488",
+   "source": "People.com",
+   "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRrYMu2LVTNBI40MOzMDZigc3-xva7c9CaHMtEmmGen-OmhqjAg-OgxQnuvBX8"
   },
   {
-   "term": "premarket",
-   "traffic": "100+",
-   "headline": "After-Hours Movers: NET, TEAM, FIVN, ABNB, DKNG, AFRM, LRCX, MCHP, AAOI, IREN, AXON",
-   "url": "https://www.investing.com/news/stock-market-news/afterhours-movers-net-team-fivn-abnb-dkng-afrm-lrcx-mchp-aaoi-iren-axon-432SI-5005795",
-   "source": "Investing.com",
-   "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRdOh3A2Ub-r2ezWvI41SP_NYEO8TTpxcS18uf2p9cZ1yWxu1cjSk428LFBF08"
+   "term": "burger king holiday countdown calendar",
+   "traffic": "1000+",
+   "headline": "Burger King’s viral holiday advent calendar is back: How to buy the internet’s mini obsession",
+   "url": "https://mashable.com/life/burger-king-2026-holiday-advent-calendar-how-to-buy",
+   "source": "Mashable",
+   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTbEHyuW3QSdWkVGP9OUOrT7zpdIbg465gnbRNxOhgEgAB2FdJDNq0Jb3rYy38"
   },
   {
-   "term": "chuck grassley",
-   "traffic": "100+",
-   "headline": "Grassley denies rumors he’ll resign in the lame-duck session",
-   "url": "https://www.politico.com/live-updates/2026/11/05/congress/grassley-sticking-around-chief-says-01152433",
-   "source": "Politico",
-   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSAGm4-pELtZYDCF3mucWw2WWqceVUjoTFiHrYjU2YfaXR6l4jhwtcmY7gbAPI"
+   "term": "lawsuit",
+   "traffic": "10000+",
+   "headline": "Dolly Parton's estate moves to dismiss lawsuit against nephew",
+   "url": "https://abcnews.com/GMA/Culture/dolly-partons-estate-moves-dismiss-lawsuit-nephew/story?id=137897385",
+   "source": "ABC News - Breaking News, Latest News and Videos",
+   "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS1x_Vt-iqJOTBNb0Z5sMES4yA98XfXdsO4D6OHJef-gHe_ugmsgwP0kzDxhqw"
   },
   {
-   "term": "clima",
-   "traffic": "20000+",
-   "headline": "Clima en Buenos Aires hoy: pronóstico del tiempo en vivo de este Viernes, 6 de noviembre",
-   "url": "https://www.eldestapeweb.com/sociedad/clima-en-buenos-aires-hoy-pronostico-del-tiempo-en-vivo-de-este-viernes-6-de-noviembre-20261163026",
-   "source": "El Destape",
-   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTFn2GajLwUu2PzjG1akBSykEBsA4zQHxSpQ-vH7-GoPX5daE8FAe67ux5O4dQ"
-  },
-  {
-   "term": "car accident lawyer",
-   "traffic": "200+",
-   "headline": "Waterbury Car Accident Attorney Dan Petroskey Explains Uber and Lyft Accident Claims in Connecticut",
-   "url": "https://www.usatoday.com/press-release/story/55881/waterbury-car-accident-attorney-dan-petroskey-explains-uber-and-lyft-accident-claims-in-connecticut/",
-   "source": "USA Today",
-   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpDagLLLSazzXIV0BCr1b9knMVC5w303wWY4wiHjYRsEhgTWH_uardnd3Vy8U"
-  },
-  {
-   "term": "edc orlando 2026",
-   "traffic": "100+",
-   "headline": "EDC Orlando: Road closures, parking and travel tips for festivalgoers this weekend",
-   "url": "https://www.clickorlando.com/news/local/2026/11/05/edc-orlando-road-closures-parking-and-travel-tips-for-festivalgoers-this-weekend/",
-   "source": "WKMG",
-   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRYlpYNSbHAgSNmQv0GlX-ZjuFmF_9S2tl20higvns2H-2uyVEO5LCIviCeFEM"
-  },
-  {
-   "term": "price of oil",
-   "traffic": "100+",
-   "headline": "Oil set for sharp weekly drop after US midterms raise hopes of more Mideast crude exports",
-   "url": "https://www.reuters.com/business/energy/oil-set-sharp-weekly-drop-middle-east-supply-concerns-provide-floor-2026-11-06/",
-   "source": "Reuters",
-   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1xGyvA-OXhL6XfayILie6cN4k30szxzEIxiSgmCqUwwFff2Xh3_oFg08cUOg"
-  },
-  {
-   "term": "flash flood warning",
+   "term": "atp paris",
    "traffic": "5000+",
-   "headline": "Flash flooding along Ocoee River forces evacuations as river reaches record high levels",
-   "url": "https://www.timesfreepress.com/news/2026/nov/05/flash-flooding-along-the-ocoee-river-forces-evacuations/",
-   "source": "Chattanooga Times Free Press",
-   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRnk5nSvSzJ0Z6DmVWPCiduq4o8ym1-a1JJfiyBSXcZxE2QBF7HzImZR1VZ4HM"
+   "headline": "Ben Shelton v Tommy Paul Odds",
+   "url": "https://sportsbook.fanduel.com/tennis/atp-paris-2026/ben-shelton-v-tommy-paul-36283627",
+   "source": "FanDuel Sportsbook",
+   "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTBWTCP24ziiSwNlO9PZ8sJIg_pE9rDl3xMB3kJGkOKsUzCPOo-hm5VCSHJgA"
   },
   {
-   "term": "погода",
-   "traffic": "200+",
-   "headline": "В Казахстане потеплеет до +27, но придут и сильные дожди",
-   "url": "https://tengrinews.kz/kazakhstan_news/v-kazahstane-potepleet-do-27-no-pridut-i-silnyie-dojdi-612505/",
-   "source": "TengriNews",
-   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR7YSqFYZKW9SHuF3JGhPyzkzg8RdNw1U6O2W6d52lpwJ1TkQ43xkZf5XhcJ5o"
+   "term": "oracle stock",
+   "traffic": "1000+",
+   "headline": "Oracle beats Microsoft and Amazon on a key Wall Street metric",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-beats-microsoft-amazon-key-160655388.html",
+   "source": "Yahoo Finance",
+   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSXYQwE3dUFsin5-rWuTRJ3JStM9OPAS5GO7TW21Fx2dabbXrMA86-Q4jXaMRM"
+  },
+  {
+   "term": "antonio brown",
+   "traffic": "500+",
+   "headline": "Antonio Brown pleads guilty to lesser charge, gets probation in shooting case",
+   "url": "https://www.espn.com/nfl/story/_/id/50400733/antonio-brown-pleads-guilty-lesser-charge-shooting-case",
+   "source": "ESPN",
+   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRrMDFw3NY3wWhIyIiDcFSfw-i8j_cyKHycNSOT68AWjy6IolU_IN4iKgHGKRw"
+  },
+  {
+   "term": "orcl stock",
+   "traffic": "1000+",
+   "headline": "Larry Ellison Falls Out Of Top 10 In Billionaire Rankings As Oracle Plunges",
+   "url": "https://www.forbes.com/sites/fionariley/2026/11/05/larry-ellison-falls-out-of-top-10-in-billionaire-rankings-as-oracle-plunges/",
+   "source": "Forbes",
+   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcROVnlt6yOS8xd5Ys-dPItv-qo0ZONB74Wh0o8a5zCgLEWKX6gDlIDVLLBeBVc"
+  },
+  {
+   "term": "katherine ryan",
+   "traffic": "2000+",
+   "headline": "Weeks before rape conviction, Russell Brand was featured speaker for Maha group allied with RFK Jr",
+   "url": "https://www.theguardian.com/culture/2026/nov/06/russell-brand-russell-brand-maha-rfk-jr-mehmet-oz",
+   "source": "The Guardian",
+   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPN02w1XWLIQabvbNEUFzzE5c0bA2PWvP3Nx4kVRUrQ23n2QZDrQMZ0yGhdek"
+  },
+  {
+   "term": "sarah friar",
+   "traffic": "500+",
+   "headline": "OpenAI will keep investing in AI data centers despite election results, CFO tells CNBC",
+   "url": "https://www.cnbc.com/2026/11/06/open-ai-data-centers-election.html",
+   "source": "CNBC",
+   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQUAaN7TyW1el5WOEE_mXhNv2DGIs5J0qkwLtOh_ezTczgBZdL46jtQNQC3Reg"
   }
  ],
- "trends_ent": 1,
- "trends_at": "2026-11-06T11:48+00:00",
+ "trends_ent": 3,
+ "trends_at": "2026-11-06T18:52+00:00",
  "songs": [
   {
    "name": "Choosin' Texas",
@@ -148,6 +148,12 @@
  "songs_at": "2026-11-06T03:08+00:00",
  "albums": [
   {
+   "name": "FRESH",
+   "artist": "Lil Baby",
+   "url": "https://music.apple.com/us/album/fresh/6823820064",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a2/df/3c/a2df3c58-fbda-cc45-b349-bad967c1e7a8/26UM1IM31430.rgb.jpg/100x100bb.jpg"
+  },
+  {
    "name": "BETTER OVER TIME",
    "artist": "BigXthaPlug",
    "url": "https://music.apple.com/us/album/better-over-time/6827763091",
@@ -158,12 +164,6 @@
    "artist": "Drake",
    "url": "https://music.apple.com/us/album/habibti-fomo/6818209777",
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/45/62/bb4562a3-45a2-539c-b557-a18ea060a476/26UMGIM63616.rgb.jpg/100x100bb.jpg"
-  },
-  {
-   "name": "FRESH",
-   "artist": "Lil Baby",
-   "url": "https://music.apple.com/us/album/fresh/6823820064",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a2/df/3c/a2df3c58-fbda-cc45-b349-bad967c1e7a8/26UM1IM31430.rgb.jpg/100x100bb.jpg"
   },
   {
    "name": "you seem pretty sad for a girl so in love",
@@ -196,17 +196,17 @@
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f9/aa/69/f9aa6992-40ca-a756-85ca-b27c48f7c720/26UMGIM02802.rgb.jpg/100x100bb.jpg"
   },
   {
-   "name": "NO ME ARREPIENTO DE SENTIR TANTO",
-   "artist": "KAROL G",
-   "url": "https://music.apple.com/us/album/no-me-arrepiento-de-sentir-tanto/6796864741",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg"
-  },
-  {
    "name": "The Life of a Showgirl: The Encore",
    "artist": "Taylor Swift",
    "url": "https://music.apple.com/us/album/the-life-of-a-showgirl-the-encore/6814997249",
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a0/dd/fd/a0ddfd72-ee9e-f046-6466-a5dbefc696fa/26UM1IM21436.rgb.jpg/100x100bb.jpg"
+  },
+  {
+   "name": "Dying In This House",
+   "artist": "Mack Geiger",
+   "url": "https://music.apple.com/us/album/dying-in-this-house/6825883834",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fb/a2/91/fba291db-11f2-c55d-36bd-f69fe6635771/196874914748.jpg/100x100bb.jpg"
   }
  ],
- "albums_at": "2026-11-06T11:48+00:00"
+ "albums_at": "2026-11-06T18:53+00:00"
 }
