@@ -79,6 +79,8 @@ Priority build. Core infrastructure, same weight as the newsroom. A living inter
 
 MONETIZE EVERYTHING (Terry, Nov 5 2026, standing rule): every project, story, event, partnership and post must answer "what is our return?" Look for the money at expert level: ad revenue, YouTube and Facebook payouts, TikTok and live-stream gifts, affiliate and Amazon influencer income, sponsor packages, content rights, licensing, influencer management fees, events and conferences. Never leave a deal empty-handed: every free product, appearance or coverage we give gets something measurable back (fee, content rights, affiliate code, introductions, data, a case study). Flag the monetization angle in every plan. Disclose paid relationships; label sponsored content.
 
+RECORD THE WORK (Terry, Nov 5 2026, standing rule): every piece of client or partner work gets a line in the WORK LEDGER, a private Google Sheet in Drive, TERRY'S PLAYBOOKS (id 1G3pC-Ch6N8JI-Tp81lrUf7v7sojbbw6Kh_HRqXgp1cI): date, client, business, work done, who did it (Terry or which desk), platform, proof link, Terry's hours, market value range, billed, paid. Every client campaign also gets a client-facing report and receipt with live links and a market-value sidebar. Confidential clients are logged in the private Sheet only, never in a repo.
+
 Images: licensed wire, studio-supplied press assets with written permission, or original photography only. Every image records its license source. No unlicensed sourcing.
 
 Paid and sponsored content carries a visible label. This is an indexing requirement, not an editorial preference.
