@@ -5479,3 +5479,30 @@ Feeds answered: 18 of 20. Items kept inside the 7-day window: 358 (12 dropped as
 | Lainey Gossip | ok | 15 | 15 | - |
 | Cosmopolitan Entertainment | ok | 50 | 49 | - |
 | Elle Culture | ok | 50 | 50 | - |
+
+## Run 2026-11-09 00:31 UTC
+
+Feeds answered: 18 of 20. Items kept inside the 7-day window: 359 (12 dropped as older).
+
+| Feed | Status | Items | With photo | Note |
+| --- | --- | --- | --- | --- |
+| TMZ | dropped | 0 | 0 | no parseable items |
+| E! News | ok | 30 | 30 | - |
+| Page Six | ok | 10 | 10 | - |
+| Us Weekly | ok | 20 | 19 | - |
+| Just Jared | ok | 25 | 24 | - |
+| HollywoodLife | ok | 10 | 10 | - |
+| Entertainment Tonight | ok | 3 | 2 | - |
+| People | dropped | 0 | 0 | HTTP 403 |
+| Bossip | ok | 24 | 24 | - |
+| Rolling Out | ok | 50 | 50 | - |
+| VIBE | ok | 10 | 0 | feed publishes no image fields at all |
+| Essence | ok | 9 | 9 | - |
+| Perez Hilton | ok | 10 | 9 | - |
+| The Jasmine Brand | ok | 10 | 10 | - |
+| Baller Alert | ok | 25 | 25 | - |
+| Hollywood Unlocked | ok | 10 | 10 | - |
+| Love B. Scott | ok | 10 | 10 | - |
+| Lainey Gossip | ok | 15 | 15 | - |
+| Cosmopolitan Entertainment | ok | 50 | 49 | - |
+| Elle Culture | ok | 50 | 50 | - |
