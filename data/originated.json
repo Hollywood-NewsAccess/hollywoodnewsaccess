@@ -2,6 +2,20 @@
  "_note": "Our own reporting. wire.py reads this every run and places these on the homepage and the right section page, above the wire cards. Add an article page in docs/ AND an entry here, or it appears on no index page. section is one of: celebrity, love, red-carpet, music, tv, movies. Nothing publishes without Terry's named sign-off.",
  "articles": [
   {
+   "title": "Inside SKVLK Fest 2026: Anelise's 18th Birthday Bash Was the Party of the Year",
+   "dek": "Carnival rides, a stacked lineup and a VIP creator lounge: Jamie Foxx and his daughter Anelise threw Thousand Oaks a night to remember. And the stabbing story? The festival's team says it never happened. Were you there?",
+   "url": "skvlk-fest-2026-anelise-18th-birthday-party-of-the-year.html",
+   "section": "celebrity",
+   "tag": "Party of the Year",
+   "byline": "By Hollywood News Access",
+   "date": "2026-11-10",
+   "image": "img/skvlk-2026-lounge.jpg",
+   "photo_author": "SKVLK Fest",
+   "photo_licence": "Festival-supplied photo (CONFIRM written permission)",
+   "image_focus": "50% 50%",
+   "signed_off_by": "Terry Bryant, Senior Editor (directed Nov 10, 2026)"
+  },
+  {
    "title": "Richard T. Jones Hosts Hollywood's Most Global Red Carpet Tonight",
    "dek": "DeVon Franklin, Oscar winner Nick Vallelonga and Grammy-nominated producer Theron “Neff-U” Feemster lead filmmakers from 30 nations into the Writers Guild Theater for the 2026 Global Film Awards. Who are you hoping to see on the carpet?",
    "url": "agff-2026-global-film-awards-red-carpet-tonight.html",
