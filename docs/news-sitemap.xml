@@ -2,6 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://hollywoodnewsaccess.com/florence-pugh-set-rules-dont-be-rude-dont-be-a-misogynist.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Hollywood News Access</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-11</news:publication_date>
+      <news:title>Florence Pugh's New Set Rules: 'Show Up on Time, Don't Be Rude, Don't Be a Misogynist'</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://hollywoodnewsaccess.com/janet-jackson-message-jenna-dewan-dwts-eliminated-grammy-night.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Hollywood News Access</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-11</news:publication_date>
+      <news:title>Janet Jackson Surprises Jenna Dewan on DWTS, Then Dewan Goes Home One Step From the Semifinals</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://hollywoodnewsaccess.com/skvlk-fest-2026-400-security-buses-families-grateful.html</loc>
     <news:news>
       <news:publication>
@@ -32,6 +54,17 @@
       </news:publication>
       <news:publication_date>2026-11-11</news:publication_date>
       <news:title>BREAKING: Sheriff's Investigation Finds No Stabbing at Jamie Foxx's SKVLK Fest</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://hollywoodnewsaccess.com/usher-chris-brown-cancel-sofi-november-16-feud-reports.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Hollywood News Access</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-11</news:publication_date>
+      <news:title>Usher and Chris Brown Cancel Their November 16 SoFi Show as Feud Reports Swirl</news:title>
     </news:news>
   </url>
 </urlset>
