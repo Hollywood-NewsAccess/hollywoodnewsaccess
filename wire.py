@@ -694,9 +694,11 @@ def ticker_html(items):
     items = [i for i in items if i.get("title")][:10]
     if not items:
         return ""
+    # An editor can pin our own story to the front of the strip with a "ticker" line
+    # (for example "BREAKING: ..."); everything else runs under its own headline.
     links = "".join('<a href="%s"%s>%s</a>' % (
         esc(i["link"]), "" if i.get("source") == "Hollywood News Access" else ' target="_blank" rel="noopener"',
-        esc(i["title"])) for i in items)
+        esc(i.get("ticker") or i["title"])) for i in items)
     return ('<div class="ticker" aria-label="Latest headlines"><b>Just in</b>'
             '<div class="ticker-track">%s%s</div></div>' % (links, links))
 
@@ -1573,7 +1575,7 @@ def main():
         entry = {
             "title": a["title"], "link": a["url"], "dek": a.get("dek", ""),
             "summary": a.get("dek", ""), "byline": a.get("byline", ""),
-            "tag": a.get("tag", "Hollywood News Access"), "source": "Hollywood News Access",
+            "tag": a.get("tag", "Hollywood News Access"), "source": "Hollywood News Access", "ticker": a.get("ticker", ""),
             "image": a.get("image", ""), "image_focus": a.get("image_focus", ""), "date": a.get("date", ""),
             "photo_subject": a.get("photo_subject", ""),
             "photo_author": a.get("photo_author", ""),
