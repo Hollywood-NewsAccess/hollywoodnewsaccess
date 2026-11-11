@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://hollywoodnewsaccess.com/skvlk-fest-2026-400-security-buses-families-grateful.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Hollywood News Access</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-11</news:publication_date>
+      <news:title>400 Guards, Shuttle Buses and a Lot of Happy Kids: The Love Behind Jamie Foxx's SKVLK Fest</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://hollywoodnewsaccess.com/skvlk-fest-2026-anelise-18th-birthday-party-of-the-year.html</loc>
     <news:news>
       <news:publication>
@@ -10,6 +21,17 @@
       </news:publication>
       <news:publication_date>2026-11-10</news:publication_date>
       <news:title>Inside SKVLK Fest 2026: Anelise's 18th Birthday Bash Was the Party of the Year</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://hollywoodnewsaccess.com/skvlk-fest-2026-sheriff-no-stabbing-official-release.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Hollywood News Access</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-11</news:publication_date>
+      <news:title>BREAKING: Sheriff's Investigation Finds No Stabbing at Jamie Foxx's SKVLK Fest</news:title>
     </news:news>
   </url>
 </urlset>
