@@ -1,67 +1,100 @@
 {
- "_note": "Our own reporting. wire.py reads this every run and places these on the homepage and the right section page, above the wire cards. Add an article page in docs/ AND an entry here, or it appears on no index page. section is one of: celebrity, love, red-carpet, music, tv, movies. Nothing publishes without Terry's named sign-off.",
- "articles": [
-  {
-   "title": "Inside SKVLK Fest 2026: Anelise's 18th Birthday Bash Was the Party of the Year",
-   "dek": "Carnival rides, a stacked lineup and a VIP creator lounge: Jamie Foxx and his daughter Anelise threw Thousand Oaks a night to remember. And the stabbing story? The festival's team says it never happened. Were you there?",
-   "url": "skvlk-fest-2026-anelise-18th-birthday-party-of-the-year.html",
-   "section": "celebrity",
-   "tag": "Breaking",
-   "byline": "By Hollywood News Access",
-   "date": "2026-11-10",
-   "image": "img/skvlk-2026-onstage.jpg",
-   "photo_author": "PR STARPOWER",
-   "photo_licence": "Original photography, PR STARPOWER",
-   "image_focus": "50% 25%",
-   "signed_off_by": "Terry Bryant, Senior Editor (directed Nov 10, 2026)",
-   "ticker": "BREAKING: Sheriff's investigation finds no stabbing at SKVLK Fest"
-  },
-  {
-   "title": "Richard T. Jones Hosts Hollywood's Most Global Red Carpet Tonight",
-   "dek": "DeVon Franklin, Oscar winner Nick Vallelonga and Grammy-nominated producer Theron “Neff-U” Feemster lead filmmakers from 30 nations into the Writers Guild Theater for the 2026 Global Film Awards. Who are you hoping to see on the carpet?",
-   "url": "agff-2026-global-film-awards-red-carpet-tonight.html",
-   "section": "red-carpet",
-   "tag": "Tonight",
-   "byline": "By Hollywood News Access",
-   "date": "2026-11-05",
-   "image": "img/agff-2026-feemster-flyer.jpg",
-   "photo_author": "Authentic Global Film Festival",
-   "photo_licence": "Festival-supplied promotional flyer, released for press use",
-   "image_focus": "50% 25%",
-   "signed_off_by": "Terry Bryant, Senior Editor (directed Nov 5, 2026)"
-  },
-  {
-   "title": "Hollywood Celebrates the Blue Wave",
-   "dek": "From Jimmy Kimmel's late-night victory lap to John Leguizamo's “this is redemption time,” the stars came out for the Democrats' midterm sweep, and the history-makers gave them plenty to cheer.",
-   "url": "hollywood-celebrates-democrats-midterm-sweep-2026.html",
-   "section": "celebrity",
-   "tag": "Election 2026",
-   "byline": "By Hollywood News Access",
-   "date": "2026-11-04",
-   "signed_off_by": "Terry Bryant, Senior Editor (directed Nov 4, 2026)"
-  },
-  {
-   "title": "Ramayana Takes Over the Academy Museum",
-   "dek": "Ranbir Kapoor, Yash and Sai Pallavi brought Indian cinema's most anticipated epic to a Los Angeles red carpet on Tuesday night, and the fans outside chanted for the villain.",
-   "url": "ramayana-los-angeles-premiere-academy-museum.html",
-   "section": "red-carpet",
-   "tag": "Premiere",
-   "byline": "By Hollywood News Access",
-   "date": "2026-10-29",
-   "signed_off_by": "Terry Bryant, Senior Editor (directed Oct 29, 2026)"
-  },
-  {
-   "title": "Freda Payne Stole VMAs Weekend",
-   "dek": "Every camera in town was pointed at the Peacock Theater. But the night Hollywood can't stop raving about happened on Sunset, where an 84-year-old legend in gold lamé delivered a sold-out, standing-ovation, once-in-a-lifetime triumph.",
-   "url": "freda-payne-catalina-hollywood-raves.html",
-   "section": "music",
-   "tag": "Hollywood is raving",
-   "byline": "By Hollywood News Access",
-   "date": "2026-10-05",
-   "image": "img/freda-payne-gold-catalina.jpg",
-   "photo_author": "Terry Bryant",
-   "photo_licence": "Original photography, used with the photographer's permission",
-   "image_focus": "50% 18%"
-  }
- ]
+  "_note": "Our own reporting. wire.py reads this every run and places these on the homepage and the right section page, above the wire cards. Add an article page in docs/ AND an entry here, or it appears on no index page. section is one of: celebrity, love, red-carpet, music, tv, movies. Nothing publishes without Terry's named sign-off.",
+  "articles": [
+    {
+      "title": "BREAKING: Sheriff's Investigation Finds No Stabbing at Jamie Foxx's SKVLK Fest",
+      "dek": "It's official. Ventura County detectives say the teen at Anelise's 18th birthday festival \"was not assaulted with a knife.\" Read the full press release. Did you believe the stabbing story?",
+      "url": "skvlk-fest-2026-sheriff-no-stabbing-official-release.html",
+      "section": "celebrity",
+      "tag": "Breaking",
+      "byline": "By Hollywood News Access",
+      "date": "2026-11-11",
+      "image": "img/skvlk-2026-sheriff-montage.jpg",
+      "photo_author": "PR STARPOWER",
+      "photo_licence": "Original photography, PR STARPOWER",
+      "image_focus": "50% 50%",
+      "signed_off_by": "Terry Bryant, Senior Editor (directed Nov 11, 2026)",
+      "ticker": "BREAKING: Sheriff confirms no stabbing at Jamie Foxx's SKVLK Fest; read the official release",
+      "disclosure": "Hollywood News Access is part of the same media group as PR STARPOWER, which represents SKVLK Fest.",
+      "revenue_angle": "High-traffic breaking page; ad inventory; PR STARPOWER case study."
+    },
+    {
+      "title": "400 Guards, Shuttle Buses and a Lot of Happy Kids: The Love Behind Jamie Foxx's SKVLK Fest",
+      "dek": "Parents brought their children, the kids rode the rides until late, and families went home grateful. Inside the care Jamie Foxx and his team put into Anelise's 18th birthday festival. Were you there?",
+      "url": "skvlk-fest-2026-400-security-buses-families-grateful.html",
+      "section": "celebrity",
+      "tag": "Exclusive",
+      "byline": "By Hollywood News Access",
+      "date": "2026-11-11",
+      "image": "img/skvlk-2026-fun-montage.jpg",
+      "photo_author": "PR STARPOWER",
+      "photo_licence": "Original photography, PR STARPOWER",
+      "image_focus": "50% 50%",
+      "signed_off_by": "Terry Bryant, Senior Editor (directed Nov 11, 2026)",
+      "ticker": "EXCLUSIVE: 400 guards, shuttle buses and a lot of happy kids at SKVLK Fest",
+      "disclosure": "Hollywood News Access is part of the same media group as PR STARPOWER, which represents SKVLK Fest.",
+      "revenue_angle": "Video page (reel) for ad and social payouts; feel-good share driver."
+    },
+    {
+      "title": "Inside SKVLK Fest 2026: Anelise's 18th Birthday Bash Was the Party of the Year",
+      "dek": "Carnival rides, a stacked lineup and a VIP creator lounge: Jamie Foxx and his daughter Anelise threw Thousand Oaks a night to remember. And the stabbing story? The festival's team says it never happened. Were you there?",
+      "url": "skvlk-fest-2026-anelise-18th-birthday-party-of-the-year.html",
+      "section": "celebrity",
+      "tag": "Party of the Year",
+      "byline": "By Hollywood News Access",
+      "date": "2026-11-10",
+      "image": "img/skvlk-2026-onstage.jpg",
+      "photo_author": "PR STARPOWER",
+      "photo_licence": "Original photography, PR STARPOWER",
+      "image_focus": "50% 25%",
+      "signed_off_by": "Terry Bryant, Senior Editor (directed Nov 10, 2026)"
+    },
+    {
+      "title": "Richard T. Jones Hosts Hollywood's Most Global Red Carpet Tonight",
+      "dek": "DeVon Franklin, Oscar winner Nick Vallelonga and Grammy-nominated producer Theron “Neff-U” Feemster lead filmmakers from 30 nations into the Writers Guild Theater for the 2026 Global Film Awards. Who are you hoping to see on the carpet?",
+      "url": "agff-2026-global-film-awards-red-carpet-tonight.html",
+      "section": "red-carpet",
+      "tag": "Awards",
+      "byline": "By Hollywood News Access",
+      "date": "2026-11-05",
+      "image": "img/agff-2026-feemster-flyer.jpg",
+      "photo_author": "Authentic Global Film Festival",
+      "photo_licence": "Festival-supplied promotional flyer, released for press use",
+      "image_focus": "50% 25%",
+      "signed_off_by": "Terry Bryant, Senior Editor (directed Nov 5, 2026)"
+    },
+    {
+      "title": "Hollywood Celebrates the Blue Wave",
+      "dek": "From Jimmy Kimmel's late-night victory lap to John Leguizamo's “this is redemption time,” the stars came out for the Democrats' midterm sweep, and the history-makers gave them plenty to cheer.",
+      "url": "hollywood-celebrates-democrats-midterm-sweep-2026.html",
+      "section": "celebrity",
+      "tag": "Election 2026",
+      "byline": "By Hollywood News Access",
+      "date": "2026-11-04",
+      "signed_off_by": "Terry Bryant, Senior Editor (directed Nov 4, 2026)"
+    },
+    {
+      "title": "Ramayana Takes Over the Academy Museum",
+      "dek": "Ranbir Kapoor, Yash and Sai Pallavi brought Indian cinema's most anticipated epic to a Los Angeles red carpet on Tuesday night, and the fans outside chanted for the villain.",
+      "url": "ramayana-los-angeles-premiere-academy-museum.html",
+      "section": "red-carpet",
+      "tag": "Premiere",
+      "byline": "By Hollywood News Access",
+      "date": "2026-10-29",
+      "signed_off_by": "Terry Bryant, Senior Editor (directed Oct 29, 2026)"
+    },
+    {
+      "title": "Freda Payne Stole VMAs Weekend",
+      "dek": "Every camera in town was pointed at the Peacock Theater. But the night Hollywood can't stop raving about happened on Sunset, where an 84-year-old legend in gold lamé delivered a sold-out, standing-ovation, once-in-a-lifetime triumph.",
+      "url": "freda-payne-catalina-hollywood-raves.html",
+      "section": "music",
+      "tag": "Hollywood is raving",
+      "byline": "By Hollywood News Access",
+      "date": "2026-10-05",
+      "image": "img/freda-payne-gold-catalina.jpg",
+      "photo_author": "Terry Bryant",
+      "photo_licence": "Original photography, used with the photographer's permission",
+      "image_focus": "50% 18%"
+    }
+  ]
 }
