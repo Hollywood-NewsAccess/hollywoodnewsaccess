@@ -82,7 +82,7 @@
   }
  ],
  "trends_ent": 1,
- "trends_at": "2026-11-11T03:49+00:00",
+ "trends_at": "2026-11-11T03:50+00:00",
  "songs": [
   {
    "name": "Choosin' Texas",
@@ -97,10 +97,10 @@
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/74/80/37/748037d7-71c1-feff-4d38-3ef0a25578b6/26UMGIM85451.rgb.jpg/100x100bb.jpg"
   },
   {
-   "name": "Mr. Do Something",
-   "artist": "Lil Baby",
-   "url": "https://music.apple.com/us/album/mr-do-something/6823820064?i=6823820066",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a2/df/3c/a2df3c58-fbda-cc45-b349-bad967c1e7a8/26UM1IM31430.rgb.jpg/100x100bb.jpg"
+   "name": "Been By Now",
+   "artist": "Morgan Wallen",
+   "url": "https://music.apple.com/us/album/been-by-now/6792676858?i=6792676860",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/8d/52/9f8d52a0-b6d9-d038-327b-4fe58bedce67/26UMGIM94572.rgb.jpg/100x100bb.jpg"
   },
   {
    "name": "BbY WOW",
@@ -109,16 +109,16 @@
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg"
   },
   {
-   "name": "Been By Now",
-   "artist": "Morgan Wallen",
-   "url": "https://music.apple.com/us/album/been-by-now/6792676858?i=6792676860",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/8d/52/9f8d52a0-b6d9-d038-327b-4fe58bedce67/26UMGIM94572.rgb.jpg/100x100bb.jpg"
-  },
-  {
    "name": "Housewife",
    "artist": "Tate McRae",
    "url": "https://music.apple.com/us/album/housewife/6822497770?i=6822497774",
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/69/64/e4/6964e483-c02c-e389-14f4-c426e8c65f2c/196874840146.jpg/100x100bb.jpg"
+  },
+  {
+   "name": "Mr. Do Something",
+   "artist": "Lil Baby",
+   "url": "https://music.apple.com/us/album/mr-do-something/6823820064?i=6823820066",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a2/df/3c/a2df3c58-fbda-cc45-b349-bad967c1e7a8/26UM1IM31430.rgb.jpg/100x100bb.jpg"
   },
   {
    "name": "Janice STFU",
@@ -145,7 +145,7 @@
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/45/62/bb4562a3-45a2-539c-b557-a18ea060a476/26UMGIM63616.rgb.jpg/100x100bb.jpg"
   }
  ],
- "songs_at": "2026-11-11T03:49+00:00",
+ "songs_at": "2026-11-11T03:50+00:00",
  "albums": [
   {
    "name": "FRESH",
