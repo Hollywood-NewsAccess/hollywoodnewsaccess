@@ -1,88 +1,88 @@
 {
  "trends": [
   {
-   "term": "live radio",
-   "traffic": "500+",
-   "headline": "22News InFocus Host Patrick Berry stars in It’s a Wonderful Life: The Live Radio Play",
-   "url": "https://www.wwlp.com/news/local-news/hampden-county/22news-infocus-host-patrick-berry-stars-in-its-a-wonderful-life-the-live-radio-play/",
-   "source": "WWLP",
-   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ_HuDx6iVeoYZRNjf2I1bRRe4Af8ZBQBj9d2IiC_-XEVNZlol3_e5soQsMbeE"
+   "term": "grand theft auto",
+   "traffic": "5000+",
+   "headline": "Miami embraces its Vice City alter ego, seizing buzz around ‘GTA VI’ release",
+   "url": "https://apnews.com/article/grand-theft-auto-vi-miami-vice-city-1441b5de7d3f458ad08626193d645a46",
+   "source": "AP News",
+   "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcREWniuDxdO3sKuNv3NTdqLbwgt9H_iozzoYPWkwDvBnxlQUWZb-Up_CC-FjXM"
   },
   {
-   "term": "live tv",
-   "traffic": "500+",
-   "headline": "Roku Quietly Adds Five More Free Channels",
-   "url": "https://www.yahoo.com/entertainment/tv/articles/roku-quietly-adds-five-more-164349470.html",
-   "source": "Yahoo",
-   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTwkVDKrjQkbA_gHAcu30aLMfcEn38ULB_4qPsFB5428RAyOEBn8ZjxD3jRPFs"
+   "term": "ayo dosunmu",
+   "traffic": "1000+",
+   "headline": "Timberwolves Back on Track Despite Anthony Edwards’ Absence",
+   "url": "https://slamonline.com/nba/timberwolves-back-on-track-despite-anthony-edwards-absence/",
+   "source": "SLAM Online",
+   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTz2zgkGeNASE7OclrGVHk3bi984z9c1fiWPwvboVBGCtulRSTHBdWWYfMuuUU"
   },
   {
-   "term": "hayden panettiere",
+   "term": "ja'kobe walter",
    "traffic": "500+",
-   "headline": "Hayden Panettiere’s mom speaks out again in new interview, blames actress’ ex Brian Hickerson for their estrangement",
-   "url": "https://www.yahoo.com/entertainment/celebrity/deaths-obituaries/articles/hayden-panettiere-mom-speaks-again-134108638.html",
-   "source": "Yahoo",
-   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTtzS3N2lsZWA0aAs9jbEJPAI-fzcEL52eqWHVX_HOfkBYB-kMXSOU53k0tY2M"
+   "headline": "Immanuel Quickley from deep!",
+   "url": "https://www.nba.com/watch/video/immanuel-quickley-from-deep-7",
+   "source": "NBA.com",
+   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd3gsHk7cyc1kbxQ_twkUhRDEmYPOG3DJdeCAZ3U_z0rJqbxoD699e0f2VBMg"
   },
   {
-   "term": "rutgers vs houston",
+   "term": "tobias harris",
+   "traffic": "500+",
+   "headline": "Return Date, Expectations Laid Out for Spurs' Tobias Harris",
+   "url": "https://sports.yahoo.com/articles/return-date-expectations-laid-spurs-233036932.html",
+   "source": "Yahoo Sports",
+   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUPiRPsmvjRKSy2F_UMO_HqPpxVvhcUTAz80Y58COXVKOd46op9HGOVX0KRBc"
+  },
+  {
+   "term": "rj barrett",
+   "traffic": "500+",
+   "headline": "Has The RJ Barrett Experience Run Its Course in Toronto?",
+   "url": "https://www.si.com/nba/raptors/onsi/has-the-rj-barrett-experience-run-its-course-in-toronto",
+   "source": "Sports Illustrated",
+   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTqngYQkTyfvyhVjbUCBQ-EyWIB7urpXNZTat3EAsix9lzVbUGVFU4PLQwZb6A"
+  },
+  {
+   "term": "david mirkovic",
+   "traffic": "200+",
+   "headline": "Illinois HC Brad Underwood Sets Benchmark for David Mirkovic Return",
+   "url": "https://sports.yahoo.com/articles/illinois-hc-brad-underwood-sets-203044674.html",
+   "source": "Yahoo Sports",
+   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQsp3asminGdzHdx97Spr9h5Wk0XF2D-XhlkYpoArQypNO2zY5mqpWjZWADSe4"
+  },
+  {
+   "term": "nicolás maduro",
+   "traffic": "200+",
+   "headline": "The Not-So-Crazy Legal Strategy to Free Nicolás Maduro",
+   "url": "https://www.politico.com/news/magazine/2026/11/15/nicolas-maduro-trial-legal-strategy-01149709",
+   "source": "Politico",
+   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTv1aUiHfAG86H4URUQU6EmSHMJlZexqzYvMT2BPovKA8nqOqVdPz8vIlSqJM4"
+  },
+  {
+   "term": "méxico - jamaica",
+   "traffic": "20000+",
+   "headline": "Winless Márquez admits Mexico 'obligated to win' in second leg vs. Jamaica",
+   "url": "https://www.espn.com/soccer/story/_/id/50506705/winless-marquez-confident-mexico-future-mounting-pressure",
+   "source": "ESPN",
+   "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT37Z1-v1zyjBH6GOMbJmgdAaHpjYqzPDnvKDvyn3gVStLJ8bEm47HcjfHQDxg"
+  },
+  {
+   "term": "rudy gobert",
+   "traffic": "1000+",
+   "headline": "Chris Finch bluntly calls out Rudy Gobert after Wolves’ loss to Bulls",
+   "url": "https://bringmethesports.com/chris-finch-bluntly-calls-out-rudy-gobert-after-wolves-loss-to-bulls",
+   "source": "Bring Me the Sports",
+   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAYIs6gF71nRcWGZFPDdBbO25qXv65TH5NohONArvY83RLjfh_5syQSQ1dPGA"
+  },
+  {
+   "term": "julianne hough",
    "traffic": "2000+",
-   "headline": "Rutgers vs Houston Preview: How to watch, TV, radio, live thread",
-   "url": "https://247sports.com/college/rutgers/article/rutgers-vs-houston-preview-how-to-watch-tv-radio-live-thread-292849365/",
-   "source": "247Sports",
-   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVtDhPC30Cm1PB9l8ZCVcQGEgT1d6mh7NUFvAlk4qcC7vhZa2JRy2mGS4mkAI"
-  },
-  {
-   "term": "niger vs morocco",
-   "traffic": "500+",
-   "headline": "Morocco Meets Niger Again in Rabat With 2027 AFCON Qualification in Sight",
-   "url": "https://barlamantoday.com/2026/11/17/morocco-meets-niger-again-in-rabat-with-2027-afcon-qualification-in-sight/",
-   "source": "Barlaman Today",
-   "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRVIafZR3_6soAj3wLwMtDiQYJeBhI-E9KgNU9wSJ9F1NGiJLeBLYOVj3Pz5RE"
-  },
-  {
-   "term": "hungary vs northern ireland",
-   "traffic": "500+",
-   "headline": "Nations League: Northern Ireland face Hungary in final group game - watch from 19:15 GMT",
-   "url": "https://www.bbc.com/sport/football/live/cwq6e479rygjt",
-   "source": "BBC",
-   "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSesYpoWSIcu6QMTp_wbEaR-K5jP0lG1chNpSG2k3Ze0XVY46XXpdpwbeyDd28"
-  },
-  {
-   "term": "ukraine vs georgia",
-   "traffic": "500+",
-   "headline": "Ukraine vs Georgia: UEFA Nations League stats & head-to-head",
-   "url": "https://www.bbc.com/sport/football/live/cwdd14e27ejrt",
-   "source": "BBC",
-   "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRoLTnkLSxQlvqf_-H7ZnJQf9xAcIu_3_Nl04nx7yiOma_DJDRg8rPzFHZdJSw"
-  },
-  {
-   "term": "browns raiders",
-   "traffic": "10000+",
-   "headline": "The NFL’s Week 12 flex decision is looming",
-   "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-nfls-week-12-flex-decision-is-looming",
-   "source": "NBC Sports",
-   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSlp-nHw5gVpc7LZNAwmtnYyqzJzVkNVrA8G-OG3lr4j-M70sab8CPGHXSqb6k"
-  },
-  {
-   "term": "ireland vs kosovo",
-   "traffic": "500+",
-   "headline": "Republic of Ireland vs Kosovo: UEFA Nations League stats & head-to-head",
-   "url": "https://www.bbc.com/sport/football/live/cmy974v0edx8t",
-   "source": "BBC",
-   "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSVq9CoBoLfmJ9ZXYqQ1_KWWrZBmv9g3uS7XszWRmTLkDqaOeRNJGk2KFcf5D0"
-  },
-  {
-   "term": "wales vs portugal",
-   "traffic": "10000+",
-   "headline": "Wales v Portugal: Portugal without Cristiano Ronaldo face a post-Gareth Bale Wales",
-   "url": "https://www.bbc.com/sport/football/articles/ckvg29vler1no",
-   "source": "BBC",
-   "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQOETFHFM_P46TXSbjsT3_HKZ0bccN8i6kkxLjerrXIkCjvA2QiGQyFvcCDb3s"
+   "headline": "Julianne Hough turns heads in pink Valentino dress for DWTS 35 semifinals",
+   "url": "https://www.yahoo.com/entertainment/celebrity/fashion/articles/julianne-hough-turns-heads-pink-002520953.html",
+   "source": "Yahoo",
+   "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_PqEee_fAebZqC0ZMnkmzkUPHDKQVIYRxDNOLUZ8MP8p43b6VXEO3dxBP5TU"
   }
  ],
- "trends_ent": 4,
- "trends_at": "2026-11-17T19:36+00:00",
+ "trends_ent": 0,
+ "trends_at": "2026-11-18T02:05+00:00",
  "songs": [
   {
    "name": "Choosin' Texas",
@@ -115,6 +115,12 @@
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c6/b7/27/c6b727f7-3a32-6b43-cee2-05bb71daf1cf/dj.itfmdeif.jpg/100x100bb.jpg"
   },
   {
+   "name": "Last Thing You Need",
+   "artist": "Morgan Wallen",
+   "url": "https://music.apple.com/us/album/last-thing-you-need/6812476961?i=6812477290",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/d3/1c/5dd31c9c-1e1c-0bbc-104f-4a42e2bb4c59/075679556424.jpg/100x100bb.jpg"
+  },
+  {
    "name": "Janice STFU",
    "artist": "Drake",
    "url": "https://music.apple.com/us/album/janice-stfu/6769568449?i=6769568596",
@@ -127,25 +133,19 @@
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/100x100bb.jpg"
   },
   {
-   "name": "Last Thing You Need",
-   "artist": "Morgan Wallen",
-   "url": "https://music.apple.com/us/album/last-thing-you-need/6812476961?i=6812477290",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/d3/1c/5dd31c9c-1e1c-0bbc-104f-4a42e2bb4c59/075679556424.jpg/100x100bb.jpg"
+   "name": "Lies (feat. Lana Del Rey)",
+   "artist": "Zach Bryan & Lana Del Rey",
+   "url": "https://music.apple.com/us/album/lies-feat-lana-del-rey/6822944288?i=6822944296",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ea/98/f2/ea98f2b8-5131-29ae-2064-997234ef13bc/093624812647.jpg/100x100bb.jpg"
   },
   {
    "name": "Dead Fresh",
    "artist": "Lil Baby",
    "url": "https://music.apple.com/us/album/dead-fresh/6790569132?i=6790569133",
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/74/80/37/748037d7-71c1-feff-4d38-3ef0a25578b6/26UMGIM85451.rgb.jpg/100x100bb.jpg"
-  },
-  {
-   "name": "In A Minute",
-   "artist": "Lil Baby",
-   "url": "https://music.apple.com/us/album/in-a-minute/1648587138?i=1648587330",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/9f/c0/99/9fc09958-180d-e66a-bbf7-9462289435f6/22UM1IM13098.rgb.jpg/100x100bb.jpg"
   }
  ],
- "songs_at": "2026-11-17T19:36+00:00",
+ "songs_at": "2026-11-18T02:05+00:00",
  "albums": [
   {
    "name": "FRESH",
@@ -158,6 +158,12 @@
    "artist": "Belly Gang Kushington",
    "url": "https://music.apple.com/us/album/good-dope-sell-itself/6829222417",
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ac/d0/f1/acd0f101-210b-d83e-656b-6cbcfc7d5b2a/711641116417.jpg/100x100bb.jpg"
+  },
+  {
+   "name": "you seem pretty sad for a girl so in love",
+   "artist": "Olivia Rodrigo",
+   "url": "https://music.apple.com/us/album/you-seem-pretty-sad-for-a-girl-so-in-love/1889992111",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/100x100bb.jpg"
   },
   {
    "name": "FRESH (Bonus Track)",
@@ -178,10 +184,10 @@
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c1/26/bc/c126bca7-bee0-8d53-c8eb-72d3df9c3731/26UM1IM16316.rgb.jpg/100x100bb.jpg"
   },
   {
-   "name": "you seem pretty sad for a girl so in love",
-   "artist": "Olivia Rodrigo",
-   "url": "https://music.apple.com/us/album/you-seem-pretty-sad-for-a-girl-so-in-love/1889992111",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/100x100bb.jpg"
+   "name": "The Great Divide: The Last Of The Bugs",
+   "artist": "Noah Kahan",
+   "url": "https://music.apple.com/us/album/the-great-divide-the-last-of-the-bugs/1894997820",
+   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f9/aa/69/f9aa6992-40ca-a756-85ca-b27c48f7c720/26UMGIM02802.rgb.jpg/100x100bb.jpg"
   },
   {
    "name": "Unfuckwitable 2",
@@ -200,13 +206,7 @@
    "artist": "BigXthaPlug",
    "url": "https://music.apple.com/us/album/better-over-time/6827763091",
    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f2/30/e2/f230e2c5-8527-184a-12f7-442f85567061/711209295424.png/100x100bb.jpg"
-  },
-  {
-   "name": "HEELMATIC",
-   "artist": "Westside Gunn",
-   "url": "https://music.apple.com/us/album/heelmatic/6825097873",
-   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e0/08/cf/e008cf0c-ef36-af3c-92cb-64263cf140d7/711641044048.jpg/100x100bb.jpg"
   }
  ],
- "albums_at": "2026-11-17T01:36+00:00"
+ "albums_at": "2026-11-18T02:05+00:00"
 }
