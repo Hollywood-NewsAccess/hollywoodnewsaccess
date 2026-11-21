@@ -846,6 +846,15 @@ Hollywood News Access desk byline. Page rebuilt automatically %s UTC from %d of 
 # page generation
 # --------------------------------------------------------------------------
 
+def keep_off_lede(items, keep=3):
+    """A story marked "no_lede": true in data/originated.json is a news item, not
+    a feature: it never takes the lead slot and sits after the top `keep` stories,
+    so the current front-page stories stay on top (Terry, Nov 21 2026)."""
+    top = [i for i in items if not i.get("no_lede")]
+    flagged = [i for i in items if i.get("no_lede")]
+    return top[:keep] + flagged + top[keep:]
+
+
 def build_index(ours, wire_items, takeover, now_la, now_utc, feed_ok, feed_total, pulse=None):
     lede_item, rest = None, list(wire_items)
     if takeover:
@@ -1585,11 +1594,16 @@ def main():
             "photo_subject": a.get("photo_subject", ""),
             "photo_author": a.get("photo_author", ""),
             "photo_licence": a.get("photo_licence", ""),
+            "no_lede": bool(a.get("no_lede")),
         }
         ours_all.append(entry)
         if a.get("section") in ours_by_section:
             ours_by_section[a["section"]].append(entry)
     ours_all.sort(key=lambda a: a.get("date", ""), reverse=True)
+    ours_all = keep_off_lede(ours_all)
+    for slug in ours_by_section:
+        ours_by_section[slug].sort(key=lambda a: a.get("date", ""), reverse=True)
+        ours_by_section[slug] = keep_off_lede(ours_by_section[slug])
 
     # Give our own reporting a photograph where a free, properly licensed one
     # exists. Cached, so this costs one Wikimedia call per new subject.
