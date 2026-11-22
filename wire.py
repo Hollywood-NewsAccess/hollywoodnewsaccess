@@ -72,6 +72,42 @@ DOCS = os.path.join(ROOT, "docs")
 DATA = os.path.join(ROOT, "data")
 STATUS_LOG = os.path.join(ROOT, "runbook", "wire-feed-status.md")
 
+# ---- GOOGLE ADSENSE SWITCH ----------------------------------------------
+# Empty = no ads anywhere. To switch ads on, paste the publisher ID Google
+# gives you (it looks like pub-1234567890123456) between the quotes, then run
+#   python3 tools/adsense.py
+# and commit. That puts Google's Auto ads tag in the <head> of every page and
+# writes docs/ads.txt. Empty it again and re-run to switch ads off.
+ADSENSE_PUB = ""
+
+
+def adsense_pub():
+    """ADSENSE_PUB cleaned up: accepts pub-123..., ca-pub-123... or just the
+    digits, and returns pub-123... (or "" when ads are off or it is mistyped)."""
+    pub = re.sub(r"^(ca-)?(pub-)?", "", (ADSENSE_PUB or "").strip())
+    return ("pub-" + pub) if re.fullmatch(r"\d{10,20}", pub) else ""
+
+
+def adsense_head():
+    """The Auto ads tag for <head>, between markers that tools/adsense.py
+    also uses, so the two never disagree. Empty string while ads are off."""
+    pub = adsense_pub()
+    if not pub:
+        return ""
+    return ('<!-- ADSENSE:START -->\n<script async src="https://pagead2.googlesyndication.com/'
+            'pagead/js/adsbygoogle.js?client=ca-%s" crossorigin="anonymous"></script>\n'
+            '<!-- ADSENSE:END -->\n' % pub)
+
+
+def write_ads_txt(dry_run=False):
+    """docs/ads.txt tells ad buyers we really sell this space through Google.
+    Written only while ADSENSE_PUB is set; never touched while it is empty."""
+    pub = adsense_pub()
+    if pub and not dry_run:
+        with open(os.path.join(DOCS, "ads.txt"), "w", encoding="utf-8") as f:
+            f.write("google.com, %s, DIRECT, f08c47fec0942fa0\n" % pub)
+
+
 # Los Angeles is UTC-7 in September (PDT). The site's dateline is LA time.
 LA = timezone(timedelta(hours=-7))
 
@@ -225,6 +261,10 @@ def extract_image(block):
 def strip_tags(s, limit=210):
     s = re.sub(r"<[^>]+>", " ", s)
     s = html.unescape(s)
+    # Some feeds (E! News) escape their HTML twice, so after unescaping a
+    # summary can still hold a raw <img src="..."> tag. Strip again, or readers
+    # see a long image address as text and phones scroll sideways.
+    s = re.sub(r"<[^>]+>", " ", s)
     s = re.sub(r"\s+", " ", s).strip()
     if len(s) > limit:
         cut = s[:limit].rsplit(" ", 1)[0]
@@ -654,6 +694,7 @@ def nav_html(current, takeover):
                     % (esc(takeover["link"]), esc(takeover["nav_label"])))
     rows.append('<li><a href="wire.html">The Wire</a></li>')
     rows.append('<li><a href="pressroom.html">Press Room</a></li>')
+    rows.append('<li><a href="advertise.html">Advertise</a></li>')
     return '<nav class="nav"><ul>\n%s\n</ul></nav>' % "\n".join(rows)
 
 
@@ -676,8 +717,8 @@ def head_html(title, description, canonical):
 <style>
 %s
 </style>
-</head>""" % (esc(title), esc(description), esc(title), esc(description),
-               esc(canonical), FONTS, CSS)
+%s</head>""" % (esc(title), esc(description), esc(title), esc(description),
+               esc(canonical), FONTS, CSS, adsense_head())
 
 
 def masthead_html(now_la):
@@ -821,7 +862,7 @@ def card_html(item, index, is_ours=False):
 
 # Social icons + network links band shown above the footer on every generated page.
 # To add TikTok or YouTube, add the account in the band (one link).
-FOLLOW_BAND = '<!-- FOLLOW:START -->\n<style>section.sf{padding:0;margin:0;min-height:0}.sf .sf-h,.sf .sf-t{margin:0}.sf .sf-h{margin-bottom:6px}.sf{background:#0C0811;color:#F3F0EA;border-top:3px solid #FF2E88;font-family:\'Bricolage Grotesque\',system-ui,sans-serif}.sf-w{max-width:1240px;margin:0 auto;padding:30px 18px 26px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px 40px}.sf-h{font-weight:800;font-size:13px;letter-spacing:.22em;text-transform:uppercase;color:#fff;margin:0 0 6px}.sf-h b{color:#FF2E88}.sf-t{font-size:14px;color:#A9A39A;margin:0}.sf-row{display:flex;gap:12px;flex-wrap:wrap}.sf-i{width:46px;height:46px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;border:1.5px solid rgba(255,255,255,.35);color:#fff;transition:background .2s,border-color .2s,transform .2s}.sf-i svg{width:21px;height:21px}.sf-i:hover,.sf-i:focus-visible{background:#FF2E88;border-color:#FF2E88;color:#0A0A0A;transform:translateY(-2px)}.sf-net{flex-basis:100%;display:flex;flex-wrap:wrap;gap:8px 22px;align-items:center;border-top:1px solid rgba(255,255,255,.12);padding-top:16px;font-size:13px;font-weight:600;letter-spacing:.06em}.sf-net span{text-transform:uppercase;letter-spacing:.2em;font-size:11px;color:#8C867D}.sf-net a{color:#E9E4DA;text-decoration:none}.sf-net a:hover{color:#FF2E88}.sf-net a[aria-current]{color:#FF2E88}@media (prefers-reduced-motion:reduce){.sf-i{transition:none}}</style>\n<section class="sf" aria-label="Follow Hollywood News Access"><div class="sf-w"><div><p class="sf-h">Follow <b>Hollywood News Access</b></p><p class="sf-t">Celebrity, red carpets and the moments everyone\'s talking about.</p></div><div class="sf-row"><a class="sf-i" href="https://www.facebook.com/Hollywoodnewsaccess" target="_blank" rel="noopener me" aria-label="Hollywood News Access on Facebook" title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 21v-7.5h2.6l.4-3h-3V8.6c0-.9.3-1.5 1.6-1.5h1.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.2H7.9v3h2.6V21h3z" fill="currentColor"/></svg></a><a class="sf-i" href="https://www.instagram.com/hollywoodnewsaccess/" target="_blank" rel="noopener me" aria-label="Hollywood News Access on Instagram" title="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor"/></svg></a><a class="sf-i" href="https://www.youtube.com/@hollywoodnewsaccess" target="_blank" rel="noopener me" aria-label="Hollywood News Access on YouTube" title="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.6 7.2a2.6 2.6 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4A2.6 2.6 0 0 0 2.4 7.2C2 8.8 2 12 2 12s0 3.2.4 4.8a2.6 2.6 0 0 0 1.8 1.8C5.8 19 12 19 12 19s6.2 0 7.8-.4a2.6 2.6 0 0 0 1.8-1.8c.4-1.6.4-4.8.4-4.8s0-3.2-.4-4.8zM10 15V9l5.2 3L10 15z" fill="currentColor"/></svg></a></div><div class="sf-net"><span>Our network</span><a href="https://newswirehollywood.com/">Newswire Hollywood</a><a href="https://hollywoodnewsaccess.com/" aria-current="page">Hollywood News Access</a><a href="https://gospelnewsaccess.com/">Gospel News Access</a><a href="https://prstarpower.com/">PR STARPOWER</a></div></div></section>\n<!-- FOLLOW:END -->\n'
+FOLLOW_BAND = '<!-- FOLLOW:START -->\n<style>section.sf{padding:0;margin:0;min-height:0}.sf .sf-h,.sf .sf-t{margin:0}.sf .sf-h{margin-bottom:6px}.sf{background:#0C0811;color:#F3F0EA;border-top:3px solid #FF2E88;font-family:\'Bricolage Grotesque\',system-ui,sans-serif}.sf-w{max-width:1240px;margin:0 auto;padding:30px 18px 26px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px 40px}.sf-h{font-weight:800;font-size:13px;letter-spacing:.22em;text-transform:uppercase;color:#fff;margin:0 0 6px}.sf-h b{color:#FF2E88}.sf-t{font-size:14px;color:#A9A39A;margin:0}.sf-row{display:flex;gap:12px;flex-wrap:wrap}.sf-i{width:46px;height:46px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;border:1.5px solid rgba(255,255,255,.35);color:#fff;transition:background .2s,border-color .2s,transform .2s}.sf-i svg{width:21px;height:21px}.sf-i:hover,.sf-i:focus-visible{background:#FF2E88;border-color:#FF2E88;color:#0A0A0A;transform:translateY(-2px)}.sf-net{flex-basis:100%;display:flex;flex-wrap:wrap;gap:8px 22px;align-items:center;border-top:1px solid rgba(255,255,255,.12);padding-top:16px;font-size:13px;font-weight:600;letter-spacing:.06em}.sf-net span{text-transform:uppercase;letter-spacing:.2em;font-size:11px;color:#8C867D}.sf-net a{color:#E9E4DA;text-decoration:none}.sf-net a:hover{color:#FF2E88}.sf-net a[aria-current]{color:#FF2E88}@media (prefers-reduced-motion:reduce){.sf-i{transition:none}}.sf-g{display:inline-flex;align-items:center;gap:8px;align-self:center;background:#fff;color:#1F1F1F;border:0;border-radius:999px;padding:7px 14px 7px 10px;font-size:12.5px;font-weight:600;letter-spacing:.01em;line-height:1.2;text-decoration:none;transition:transform .2s}.sf-g svg{width:18px;height:18px;flex:none}.sf-g b{font-weight:800}.sf-g:hover,.sf-g:focus-visible{transform:translateY(-2px);color:#000}.sf-x{margin-left:auto;display:flex;flex-wrap:wrap;gap:8px 22px}</style>\n<section class="sf" aria-label="Follow Hollywood News Access"><div class="sf-w"><div><p class="sf-h">Follow <b>Hollywood News Access</b></p><p class="sf-t">Celebrity, red carpets and the moments everyone\'s talking about.</p></div><div class="sf-row"><a class="sf-i" href="https://www.facebook.com/Hollywoodnewsaccess" target="_blank" rel="noopener me" aria-label="Hollywood News Access on Facebook" title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 21v-7.5h2.6l.4-3h-3V8.6c0-.9.3-1.5 1.6-1.5h1.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.2H7.9v3h2.6V21h3z" fill="currentColor"/></svg></a><a class="sf-i" href="https://www.instagram.com/hollywoodnewsaccess/" target="_blank" rel="noopener me" aria-label="Hollywood News Access on Instagram" title="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor"/></svg></a><a class="sf-i" href="https://www.youtube.com/@hollywoodnewsaccess" target="_blank" rel="noopener me" aria-label="Hollywood News Access on YouTube" title="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.6 7.2a2.6 2.6 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4A2.6 2.6 0 0 0 2.4 7.2C2 8.8 2 12 2 12s0 3.2.4 4.8a2.6 2.6 0 0 0 1.8 1.8C5.8 19 12 19 12 19s6.2 0 7.8-.4a2.6 2.6 0 0 0 1.8-1.8c.4-1.6.4-4.8.4-4.8s0-3.2-.4-4.8zM10 15V9l5.2 3L10 15z" fill="currentColor"/></svg></a><a class="sf-g" href="https://www.google.com/preferences/source?q=hollywoodnewsaccess.com" target="_blank" rel="noopener" aria-label="Add Hollywood News Access as a preferred source on Google"><svg viewBox="0 0 48 48" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.4-.4-3.5z"/></svg><span>Add us as a <b>preferred source</b> on Google</span></a></div><div class="sf-net"><span>Our network</span><a href="https://newswirehollywood.com/">Newswire Hollywood</a><a href="https://hollywoodnewsaccess.com/" aria-current="page">Hollywood News Access</a><a href="https://gospelnewsaccess.com/">Gospel News Access</a><a href="https://prstarpower.com/">PR STARPOWER</a><span class="sf-x"><a href="https://hollywoodnewsaccess.com/advertise.html">Advertise</a><a href="https://hollywoodnewsaccess.com/privacy.html">Privacy &amp; ads</a></span></div></div></section>\n<!-- FOLLOW:END -->\n'
 
 
 def footer_html(now_utc, feed_ok, feed_total):
@@ -830,8 +871,9 @@ def footer_html(now_utc, feed_ok, feed_total):
 <a href="index.html">Home</a>
 <a href="wire.html">The Wire</a>
 <a href="pressroom.html">Press Room</a>
-<a href="pressroom.html#advertise">Advertise</a>
+<a href="advertise.html">Advertise</a>
 <a href="pressroom.html#standards">Standards &amp; Corrections</a>
+<a href="privacy.html">Privacy</a>
 <a href="https://www.instagram.com/hollywoodnewsaccess/" target="_blank" rel="noopener me">Instagram</a>
 <a href="https://www.facebook.com/Hollywoodnewsaccess" target="_blank" rel="noopener me">Facebook</a>
 </nav>
@@ -1657,6 +1699,7 @@ def main():
     if social:
         print("share cards refreshed on: %s" % ", ".join(social))
 
+    write_ads_txt(dry_run)
     if not dry_run:
         write_status_log(status, now_utc, len(fresh), dropped_old)
 

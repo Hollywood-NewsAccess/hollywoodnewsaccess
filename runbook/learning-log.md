@@ -85,3 +85,9 @@ brand-new file and Git didn't compare it at all. The answer was always "no chang
 and the finished site was thrown away every hour. The fix uses `git status`, which
 also sees new files. Lesson: a check can say "all clear" when it isn't looking at
 the right thing.
+
+## Nov 22, 2026 — One light switch for ads
+Google ads need one small line of code in the hidden top section of every page (the "head"), plus a file called ads.txt that proves to advertisers we really sell space through Google. Instead of pasting that line into every page by hand, there is one switch: ADSENSE_PUB at the top of wire.py. Fill it in and run tools/adsense.py, and every page gets the line between two marker comments; empty it and run again, and it all comes back out. The markers work like labels on a fuse box: the tool always knows which wire is its own. Press releases stay ad-free, because a client paid for that page.
+
+## Nov 22, 2026 — Text that was code in disguise
+Some E! News feed summaries arrived "double-wrapped": a picture tag disguised as plain text. We unwrapped it once, which turned it back into a real tag, but never removed it, so readers saw a long image address on the homepage and phones could scroll sideways. Fix: wire.py now strips tags again after unwrapping. Lesson: clean data after every step that can change its shape.

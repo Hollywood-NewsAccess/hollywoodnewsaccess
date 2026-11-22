@@ -105,3 +105,10 @@ The homepage and the six section pages (celebrity, love, red-carpet, music, tv, 
 Everything else in docs/ — the individual article pages and the press room — is hand-written and wire.py does not touch it, except to add or remove a takeover nav item inside the TAKEOVER markers.
 
 Wire cards carry another outlet's headline, their own feed photo credited to them, and a link out to their story. We never republish their article text.
+
+## MONEY SWITCHES — ads, media kit, privacy (Nov 22 2026)
+
+- GOOGLE ADS (AdSense): one line switches it on. Set ADSENSE_PUB = "pub-XXXXXXXXXXXXXXXX" at the top of wire.py, run `python3 tools/adsense.py`, commit. That puts Google's Auto ads tag between <!-- ADSENSE:START --> / <!-- ADSENSE:END --> in the <head> of every page in docs/ and writes docs/ads.txt. wire.py adds the same tag to the pages it rebuilds. Empty ADSENSE_PUB and re-run to switch ads off. Press releases (file names with press-release / official-release, "Press Release" tags) and any page with <meta name="ads" content="off"> stay ad-free. In AdSense, also switch on Privacy & messaging > European regulations (Google's free consent message), because docs/privacy.html promises it.
+- Advertise / media kit: docs/advertise.html (starting rates; "we confirm and invoice"). Contact is Facebook/Instagram messages until the HNA inbox exists; when it does, put the address in the contact card on docs/advertise.html and docs/privacy.html.
+- Privacy & ads disclosure: docs/privacy.html. Any affiliate link we add must carry rel="sponsored noopener".
+- Follow band carries "Add us as a preferred source on Google" (https://www.google.com/preferences/source?q=hollywoodnewsaccess.com) plus Advertise and Privacy links. Change FOLLOW_BAND in wire.py, then copy it onto the hand-written pages between the FOLLOW markers.
